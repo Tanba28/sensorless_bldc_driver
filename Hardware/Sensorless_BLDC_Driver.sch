@@ -1,4 +1,673 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_FET:FAN7888 U?
+U 1 1 5EA7FC66
+P 3700 4000
+F 0 "U?" H 3450 4850 50  0000 C CNN
+F 1 "FAN7888" H 3900 4850 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 3750 3250 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf" H 3700 4000 50  0001 C CNN
+F 4 "https://www.mouser.jp/ProductDetail/ON-Semiconductor-Fairchild/FAN7888MX?qs=sGAEpiMZZMvQcoNRkxSQkibP%252BR%2Fg0K8u%252BJ2%252BR7fJC94%3D" H 3700 4000 50  0001 C CNN "Link"
+F 5 "FAN7888MX" H 3700 4000 50  0001 C CNN "MPN"
+F 6 "mouser" H 3700 4000 50  0001 C CNN "Agency"
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M15-60EX Q?
+U 1 1 5EA8096E
+P 6500 1350
+F 0 "Q?" H 6705 1396 50  0000 L CNN
+F 1 "BUK7M15-60EX" H 6705 1305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 6700 1275 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf" V 6500 1350 50  0001 L CNN
+F 4 "https://www.mouser.jp/ProductDetail/Nexperia/BUK7M15-60EX?qs=sGAEpiMZZMshyDBzk1%2FWiwr7FRfCyr%2FGcssgvrYyov7i8rfuCESdcg%3D%3D" H 6500 1350 50  0001 C CNN "Link"
+F 5 "BUK7M15-60EX" H 6500 1350 50  0001 C CNN "MPN"
+F 6 "mouser" H 6500 1350 50  0001 C CNN "Agency"
+	1    6500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M15-60EX Q?
+U 1 1 5EA80A1B
+P 6500 2050
+F 0 "Q?" H 6705 2096 50  0000 L CNN
+F 1 "BUK7M15-60EX" H 6705 2005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 6700 1975 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf" V 6500 2050 50  0001 L CNN
+F 4 "https://www.mouser.jp/ProductDetail/Nexperia/BUK7M15-60EX?qs=sGAEpiMZZMshyDBzk1%2FWiwr7FRfCyr%2FGcssgvrYyov7i8rfuCESdcg%3D%3D" H 6500 2050 50  0001 C CNN "Link"
+F 5 "BUK7M15-60EX" H 6500 2050 50  0001 C CNN "MPN"
+F 6 "mouser" H 6500 2050 50  0001 C CNN "Agency"
+	1    6500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EA80CE9
+P 3850 2350
+F 0 "R?" V 3654 2350 50  0000 C CNN
+F 1 "10" V 3745 2350 50  0000 C CNN
+F 2 "" H 3850 2350 50  0001 C CNN
+F 3 "~" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5EA80EC0
+P 4250 2350
+F 0 "D?" H 4250 2145 50  0000 C CNN
+F 1 "RSX101VAM-30" H 4250 2236 50  0000 C CNN
+F 2 "" V 4250 2350 50  0001 C CNN
+F 3 "~" V 4250 2350 50  0001 C CNN
+	1    4250 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2350 3950 2350
+$Comp
+L Device:R_Small R?
+U 1 1 5EA8164A
+P 3850 2650
+F 0 "R?" V 3654 2650 50  0000 C CNN
+F 1 "10" V 3745 2650 50  0000 C CNN
+F 2 "" H 3850 2650 50  0001 C CNN
+F 3 "~" H 3850 2650 50  0001 C CNN
+	1    3850 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5EA81651
+P 4250 2650
+F 0 "D?" H 4250 2445 50  0000 C CNN
+F 1 "RSX101VAM-30" H 4250 2536 50  0000 C CNN
+F 2 "" V 4250 2650 50  0001 C CNN
+F 3 "~" V 4250 2650 50  0001 C CNN
+	1    4250 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2650 3950 2650
+$Comp
+L Device:R_Small R?
+U 1 1 5EA81705
+P 3850 2950
+F 0 "R?" V 3654 2950 50  0000 C CNN
+F 1 "10" V 3745 2950 50  0000 C CNN
+F 2 "" H 3850 2950 50  0001 C CNN
+F 3 "~" H 3850 2950 50  0001 C CNN
+	1    3850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 5EA8170C
+P 4250 2950
+F 0 "D?" H 4250 2745 50  0000 C CNN
+F 1 "RSX101VAM-30" H 4250 2836 50  0000 C CNN
+F 2 "" V 4250 2950 50  0001 C CNN
+F 3 "~" V 4250 2950 50  0001 C CNN
+	1    4250 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2950 3950 2950
+$Comp
+L Device:C_Small C?
+U 1 1 5EA8179D
+P 4500 3400
+F 0 "C?" H 4408 3354 50  0000 R CNN
+F 1 "2.2u" H 4408 3445 50  0000 R CNN
+F 2 "" H 4500 3400 50  0001 C CNN
+F 3 "~" H 4500 3400 50  0001 C CNN
+	1    4500 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3300 4500 3300
+Wire Wire Line
+	4500 3500 4100 3500
+Text Label 4300 3300 2    50   ~ 0
+VB1
+Text Label 4300 3400 2    50   ~ 0
+HO1
+Text Label 4300 3500 2    50   ~ 0
+VS1
+Wire Wire Line
+	4300 3400 4100 3400
+Text Label 4300 3600 2    50   ~ 0
+LO1
+Wire Wire Line
+	4300 3600 4100 3600
+Wire Wire Line
+	4500 3300 4500 2950
+Wire Wire Line
+	4500 2950 4350 2950
+Connection ~ 4500 3300
+$Comp
+L Device:C_Small C?
+U 1 1 5EA81B66
+P 4800 3900
+F 0 "C?" H 4708 3854 50  0000 R CNN
+F 1 "2.2u" H 4708 3945 50  0000 R CNN
+F 2 "" H 4800 3900 50  0001 C CNN
+F 3 "~" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	-1   0    0    1   
+$EndComp
+Text Label 4300 3800 2    50   ~ 0
+VB2
+Text Label 4300 3900 2    50   ~ 0
+HO2
+Text Label 4300 4000 2    50   ~ 0
+VS2
+Wire Wire Line
+	4300 3900 4100 3900
+Text Label 4300 4100 2    50   ~ 0
+LO2
+Wire Wire Line
+	4300 4100 4100 4100
+$Comp
+L Device:C_Small C?
+U 1 1 5EA81E64
+P 5100 4400
+F 0 "C?" H 5008 4354 50  0000 R CNN
+F 1 "2.2u" H 5008 4445 50  0000 R CNN
+F 2 "" H 5100 4400 50  0001 C CNN
+F 3 "~" H 5100 4400 50  0001 C CNN
+	1    5100 4400
+	-1   0    0    1   
+$EndComp
+Text Label 4300 4300 2    50   ~ 0
+VB3
+Text Label 4300 4400 2    50   ~ 0
+HO3
+Text Label 4300 4500 2    50   ~ 0
+VS3
+Wire Wire Line
+	4300 4400 4100 4400
+Text Label 4300 4600 2    50   ~ 0
+LO3
+Wire Wire Line
+	4300 4600 4100 4600
+Text Label 5800 1350 0    50   ~ 0
+HO1
+$Comp
+L Device:R_Small R?
+U 1 1 5EA82157
+P 6100 1350
+F 0 "R?" V 5904 1350 50  0000 C CNN
+F 1 "47" V 5995 1350 50  0000 C CNN
+F 2 "" H 6100 1350 50  0001 C CNN
+F 3 "~" H 6100 1350 50  0001 C CNN
+	1    6100 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 1350 6000 1350
+Wire Wire Line
+	6200 1350 6300 1350
+Text Label 5800 2050 0    50   ~ 0
+LO1
+$Comp
+L Device:R_Small R?
+U 1 1 5EA82626
+P 6100 2050
+F 0 "R?" V 5904 2050 50  0000 C CNN
+F 1 "47" V 5995 2050 50  0000 C CNN
+F 2 "" H 6100 2050 50  0001 C CNN
+F 3 "~" H 6100 2050 50  0001 C CNN
+	1    6100 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 2050 6000 2050
+Wire Wire Line
+	6200 2050 6300 2050
+Wire Wire Line
+	4350 2650 4800 2650
+Wire Wire Line
+	4800 2650 4800 3800
+Wire Wire Line
+	4350 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 4300
+Wire Wire Line
+	4100 3800 4800 3800
+Connection ~ 4800 3800
+Wire Wire Line
+	4100 4000 4800 4000
+Wire Wire Line
+	4100 4300 5100 4300
+Connection ~ 5100 4300
+Wire Wire Line
+	4100 4500 5100 4500
+$Comp
+L power:VDD #PWR?
+U 1 1 5EA845BF
+P 3700 2250
+F 0 "#PWR?" H 3700 2100 50  0001 C CNN
+F 1 "VDD" H 3717 2423 50  0000 C CNN
+F 2 "" H 3700 2250 50  0001 C CNN
+F 3 "" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2250 3700 2350
+Wire Wire Line
+	3750 2350 3700 2350
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2350 3700 2650
+Wire Wire Line
+	3750 2650 3700 2650
+Connection ~ 3700 2650
+Wire Wire Line
+	3700 2650 3700 2950
+Wire Wire Line
+	3750 2950 3700 2950
+Connection ~ 3700 2950
+Wire Wire Line
+	3700 2950 3700 3100
+Text GLabel 6800 1700 2    50   Input ~ 0
+MOTOR_U
+Wire Wire Line
+	6800 1700 6600 1700
+Connection ~ 6600 1700
+Wire Wire Line
+	6600 1700 6600 1850
+Wire Wire Line
+	6600 1550 6600 1700
+$Comp
+L power:VDD #PWR?
+U 1 1 5EA87D73
+P 6600 1050
+F 0 "#PWR?" H 6600 900 50  0001 C CNN
+F 1 "VDD" H 6617 1223 50  0000 C CNN
+F 2 "" H 6600 1050 50  0001 C CNN
+F 3 "" H 6600 1050 50  0001 C CNN
+	1    6600 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1050 6600 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5EA883D2
+P 3700 4800
+F 0 "#PWR?" H 3700 4550 50  0001 C CNN
+F 1 "GND" H 3705 4627 50  0000 C CNN
+F 2 "" H 3700 4800 50  0001 C CNN
+F 3 "" H 3700 4800 50  0001 C CNN
+	1    3700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA88400
+P 6600 2350
+F 0 "#PWR?" H 6600 2100 50  0001 C CNN
+F 1 "GND" H 6605 2177 50  0000 C CNN
+F 2 "" H 6600 2350 50  0001 C CNN
+F 3 "" H 6600 2350 50  0001 C CNN
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2350 6600 2250
+$Comp
+L Transistor_FET:BUK7M15-60EX Q?
+U 1 1 5EA89286
+P 6500 3100
+F 0 "Q?" H 6705 3146 50  0000 L CNN
+F 1 "BUK7M15-60EX" H 6705 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 6700 3025 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf" V 6500 3100 50  0001 L CNN
+F 4 "https://www.mouser.jp/ProductDetail/Nexperia/BUK7M15-60EX?qs=sGAEpiMZZMshyDBzk1%2FWiwr7FRfCyr%2FGcssgvrYyov7i8rfuCESdcg%3D%3D" H 6500 3100 50  0001 C CNN "Link"
+F 5 "BUK7M15-60EX" H 6500 3100 50  0001 C CNN "MPN"
+F 6 "mouser" H 6500 3100 50  0001 C CNN "Agency"
+	1    6500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M15-60EX Q?
+U 1 1 5EA89290
+P 6500 3800
+F 0 "Q?" H 6705 3846 50  0000 L CNN
+F 1 "BUK7M15-60EX" H 6705 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 6700 3725 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf" V 6500 3800 50  0001 L CNN
+F 4 "https://www.mouser.jp/ProductDetail/Nexperia/BUK7M15-60EX?qs=sGAEpiMZZMshyDBzk1%2FWiwr7FRfCyr%2FGcssgvrYyov7i8rfuCESdcg%3D%3D" H 6500 3800 50  0001 C CNN "Link"
+F 5 "BUK7M15-60EX" H 6500 3800 50  0001 C CNN "MPN"
+F 6 "mouser" H 6500 3800 50  0001 C CNN "Agency"
+	1    6500 3800
+	1    0    0    -1  
+$EndComp
+Text Label 5800 3100 0    50   ~ 0
+HO2
+$Comp
+L Device:R_Small R?
+U 1 1 5EA89298
+P 6100 3100
+F 0 "R?" V 5904 3100 50  0000 C CNN
+F 1 "47" V 5995 3100 50  0000 C CNN
+F 2 "" H 6100 3100 50  0001 C CNN
+F 3 "~" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3100 6000 3100
+Wire Wire Line
+	6200 3100 6300 3100
+Text Label 5800 3800 0    50   ~ 0
+LO2
+$Comp
+L Device:R_Small R?
+U 1 1 5EA892A2
+P 6100 3800
+F 0 "R?" V 5904 3800 50  0000 C CNN
+F 1 "47" V 5995 3800 50  0000 C CNN
+F 2 "" H 6100 3800 50  0001 C CNN
+F 3 "~" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3800 6000 3800
+Wire Wire Line
+	6200 3800 6300 3800
+Text GLabel 6800 3450 2    50   Input ~ 0
+MOTOR_V
+Wire Wire Line
+	6800 3450 6600 3450
+Connection ~ 6600 3450
+Wire Wire Line
+	6600 3450 6600 3600
+Wire Wire Line
+	6600 3300 6600 3450
+$Comp
+L power:VDD #PWR?
+U 1 1 5EA892B0
+P 6600 2800
+F 0 "#PWR?" H 6600 2650 50  0001 C CNN
+F 1 "VDD" H 6617 2973 50  0000 C CNN
+F 2 "" H 6600 2800 50  0001 C CNN
+F 3 "" H 6600 2800 50  0001 C CNN
+	1    6600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2800 6600 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5EA892B7
+P 6600 4100
+F 0 "#PWR?" H 6600 3850 50  0001 C CNN
+F 1 "GND" H 6605 3927 50  0000 C CNN
+F 2 "" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4100 6600 4000
+$Comp
+L Transistor_FET:BUK7M15-60EX Q?
+U 1 1 5EA8A514
+P 6500 4900
+F 0 "Q?" H 6705 4946 50  0000 L CNN
+F 1 "BUK7M15-60EX" H 6705 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 6700 4825 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf" V 6500 4900 50  0001 L CNN
+F 4 "https://www.mouser.jp/ProductDetail/Nexperia/BUK7M15-60EX?qs=sGAEpiMZZMshyDBzk1%2FWiwr7FRfCyr%2FGcssgvrYyov7i8rfuCESdcg%3D%3D" H 6500 4900 50  0001 C CNN "Link"
+F 5 "BUK7M15-60EX" H 6500 4900 50  0001 C CNN "MPN"
+F 6 "mouser" H 6500 4900 50  0001 C CNN "Agency"
+	1    6500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BUK7M15-60EX Q?
+U 1 1 5EA8A51E
+P 6500 5600
+F 0 "Q?" H 6705 5646 50  0000 L CNN
+F 1 "BUK7M15-60EX" H 6705 5555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK33" H 6700 5525 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf" V 6500 5600 50  0001 L CNN
+F 4 "https://www.mouser.jp/ProductDetail/Nexperia/BUK7M15-60EX?qs=sGAEpiMZZMshyDBzk1%2FWiwr7FRfCyr%2FGcssgvrYyov7i8rfuCESdcg%3D%3D" H 6500 5600 50  0001 C CNN "Link"
+F 5 "BUK7M15-60EX" H 6500 5600 50  0001 C CNN "MPN"
+F 6 "mouser" H 6500 5600 50  0001 C CNN "Agency"
+	1    6500 5600
+	1    0    0    -1  
+$EndComp
+Text Label 5800 4900 0    50   ~ 0
+HO3
+$Comp
+L Device:R_Small R?
+U 1 1 5EA8A526
+P 6100 4900
+F 0 "R?" V 5904 4900 50  0000 C CNN
+F 1 "47" V 5995 4900 50  0000 C CNN
+F 2 "" H 6100 4900 50  0001 C CNN
+F 3 "~" H 6100 4900 50  0001 C CNN
+	1    6100 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4900 6000 4900
+Wire Wire Line
+	6200 4900 6300 4900
+Text Label 5800 5600 0    50   ~ 0
+LO3
+$Comp
+L Device:R_Small R?
+U 1 1 5EA8A530
+P 6100 5600
+F 0 "R?" V 5904 5600 50  0000 C CNN
+F 1 "47" V 5995 5600 50  0000 C CNN
+F 2 "" H 6100 5600 50  0001 C CNN
+F 3 "~" H 6100 5600 50  0001 C CNN
+	1    6100 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 5600 6000 5600
+Wire Wire Line
+	6200 5600 6300 5600
+Text GLabel 6800 5250 2    50   Input ~ 0
+MOTOR_W
+Wire Wire Line
+	6800 5250 6600 5250
+Connection ~ 6600 5250
+Wire Wire Line
+	6600 5250 6600 5400
+Wire Wire Line
+	6600 5100 6600 5250
+$Comp
+L power:VDD #PWR?
+U 1 1 5EA8A53E
+P 6600 4600
+F 0 "#PWR?" H 6600 4450 50  0001 C CNN
+F 1 "VDD" H 6617 4773 50  0000 C CNN
+F 2 "" H 6600 4600 50  0001 C CNN
+F 3 "" H 6600 4600 50  0001 C CNN
+	1    6600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4600 6600 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5EA8A545
+P 6600 5900
+F 0 "#PWR?" H 6600 5650 50  0001 C CNN
+F 1 "GND" H 6605 5727 50  0000 C CNN
+F 2 "" H 6600 5900 50  0001 C CNN
+F 3 "" H 6600 5900 50  0001 C CNN
+	1    6600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5900 6600 5800
+Text Label 5800 1700 0    50   ~ 0
+VS1
+Wire Wire Line
+	5800 1700 6600 1700
+Text Label 5800 3450 0    50   ~ 0
+VS2
+Wire Wire Line
+	5800 3450 6600 3450
+Text Label 5800 5250 0    50   ~ 0
+VS3
+Wire Wire Line
+	5800 5250 6600 5250
+$Comp
+L Device:C_Small C?
+U 1 1 5EA8FB0D
+P 3350 2500
+F 0 "C?" H 3258 2454 50  0000 R CNN
+F 1 "1u" H 3258 2545 50  0000 R CNN
+F 2 "" H 3350 2500 50  0001 C CNN
+F 3 "~" H 3350 2500 50  0001 C CNN
+	1    3350 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 2400 3350 2250
+Wire Wire Line
+	3350 2250 3700 2250
+Connection ~ 3700 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5EA91A6C
+P 3350 2600
+F 0 "#PWR?" H 3350 2350 50  0001 C CNN
+F 1 "GND" H 3355 2427 50  0000 C CNN
+F 2 "" H 3350 2600 50  0001 C CNN
+F 3 "" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5EA91B06
+P 7650 1250
+F 0 "C?" H 7738 1296 50  0000 L CNN
+F 1 "1000u" H 7738 1205 50  0000 L CNN
+F 2 "" H 7650 1250 50  0001 C CNN
+F 3 "~" H 7650 1250 50  0001 C CNN
+	1    7650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5EA92BBE
+P 7650 1000
+F 0 "#PWR?" H 7650 850 50  0001 C CNN
+F 1 "VDD" H 7667 1173 50  0000 C CNN
+F 2 "" H 7650 1000 50  0001 C CNN
+F 3 "" H 7650 1000 50  0001 C CNN
+	1    7650 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1000 7650 1050
+$Comp
+L power:GND #PWR?
+U 1 1 5EA93AD1
+P 7650 1500
+F 0 "#PWR?" H 7650 1250 50  0001 C CNN
+F 1 "GND" H 7655 1327 50  0000 C CNN
+F 2 "" H 7650 1500 50  0001 C CNN
+F 3 "" H 7650 1500 50  0001 C CNN
+	1    7650 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1500 7650 1450
+$Comp
+L Device:CP_Small C?
+U 1 1 5EA94A8D
+P 8050 1250
+F 0 "C?" H 8138 1296 50  0000 L CNN
+F 1 "100u" H 8138 1205 50  0000 L CNN
+F 2 "" H 8050 1250 50  0001 C CNN
+F 3 "~" H 8050 1250 50  0001 C CNN
+	1    8050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EA94B5C
+P 8450 1250
+F 0 "C?" H 8358 1204 50  0000 R CNN
+F 1 "1u" H 8358 1295 50  0000 R CNN
+F 2 "" H 8450 1250 50  0001 C CNN
+F 3 "~" H 8450 1250 50  0001 C CNN
+	1    8450 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 1050 8050 1050
+Wire Wire Line
+	8050 1050 8050 1150
+Connection ~ 7650 1050
+Wire Wire Line
+	7650 1050 7650 1150
+Wire Wire Line
+	8050 1050 8450 1050
+Wire Wire Line
+	8450 1050 8450 1150
+Connection ~ 8050 1050
+Wire Wire Line
+	8050 1350 8050 1450
+Wire Wire Line
+	8050 1450 7650 1450
+Connection ~ 7650 1450
+Wire Wire Line
+	7650 1450 7650 1350
+Wire Wire Line
+	8050 1450 8450 1450
+Wire Wire Line
+	8450 1450 8450 1350
+Connection ~ 8050 1450
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5EA99288
+P 8650 3250
+F 0 "J?" H 8623 3180 50  0000 R CNN
+F 1 "MOTOR" H 8623 3271 50  0000 R CNN
+F 2 "" H 8650 3250 50  0001 C CNN
+F 3 "~" H 8650 3250 50  0001 C CNN
+	1    8650 3250
+	-1   0    0    1   
+$EndComp
+Text GLabel 8350 3150 0    50   Input ~ 0
+MOTOR_U
+Text GLabel 8350 3250 0    50   Input ~ 0
+MOTOR_V
+Text GLabel 8350 3350 0    50   Input ~ 0
+MOTOR_W
+Wire Wire Line
+	8350 3150 8450 3150
+Wire Wire Line
+	8450 3250 8350 3250
+Wire Wire Line
+	8450 3350 8350 3350
 $EndSCHEMATC
