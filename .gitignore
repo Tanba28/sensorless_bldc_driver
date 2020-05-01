@@ -24,3 +24,13 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# PSoC Creator
+*.cywrk
+*.cywrk.*
+/Firmware/*.cydsn/*
+!*.c
+!*.h
+!*.cydwr
+!*.cyprj
+!/Firmware/*.cydsn/TopDesign
