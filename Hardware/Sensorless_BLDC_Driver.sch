@@ -1735,10 +1735,10 @@ Wire Wire Line
 	8650 750  8950 750 
 Connection ~ 8650 750 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5EC07216
 P 8950 950
-F 0 "#PWR?" H 8950 700 50  0001 C CNN
+F 0 "#PWR0102" H 8950 700 50  0001 C CNN
 F 1 "GND" H 8955 777 50  0000 C CNN
 F 2 "" H 8950 950 50  0001 C CNN
 F 3 "" H 8950 950 50  0001 C CNN
@@ -1746,10 +1746,10 @@ F 3 "" H 8950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0103
 U 1 1 5EC07660
 P 7000 750
-F 0 "#PWR?" H 7000 600 50  0001 C CNN
+F 0 "#PWR0103" H 7000 600 50  0001 C CNN
 F 1 "VDD" H 7017 923 50  0000 C CNN
 F 2 "" H 7000 750 50  0001 C CNN
 F 3 "" H 7000 750 50  0001 C CNN
@@ -1762,10 +1762,10 @@ Wire Wire Line
 	7000 750  7300 750 
 Connection ~ 7000 750 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 5EC07673
 P 7300 950
-F 0 "#PWR?" H 7300 700 50  0001 C CNN
+F 0 "#PWR0121" H 7300 700 50  0001 C CNN
 F 1 "GND" H 7305 777 50  0000 C CNN
 F 2 "" H 7300 950 50  0001 C CNN
 F 3 "" H 7300 950 50  0001 C CNN
@@ -1773,10 +1773,10 @@ F 3 "" H 7300 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR0122
 U 1 1 5EC111A3
 P 5350 750
-F 0 "#PWR?" H 5350 600 50  0001 C CNN
+F 0 "#PWR0122" H 5350 600 50  0001 C CNN
 F 1 "VDD" H 5367 923 50  0000 C CNN
 F 2 "" H 5350 750 50  0001 C CNN
 F 3 "" H 5350 750 50  0001 C CNN
@@ -1789,10 +1789,10 @@ Wire Wire Line
 	5350 750  5650 750 
 Connection ~ 5350 750 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 5EC111B6
 P 5650 950
-F 0 "#PWR?" H 5650 700 50  0001 C CNN
+F 0 "#PWR0125" H 5650 700 50  0001 C CNN
 F 1 "GND" H 5655 777 50  0000 C CNN
 F 2 "" H 5650 950 50  0001 C CNN
 F 3 "" H 5650 950 50  0001 C CNN
@@ -1840,5 +1840,98 @@ F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?q
 F 6 "GRM188R61E225MA12D" H 6000 -4600 50  0001 C CNN "MPN"
 	1    8950 850 
 	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R35
+U 1 1 5EC26916
+P 7400 3450
+F 0 "R35" V 7204 3450 50  0000 C CNN
+F 1 "33k" V 7295 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 3450 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 7400 3450 50  0001 C CNN
+F 4 "mouser" H 0   -1150 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   -1150 50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   -1150 50  0001 C CNN "MPN"
+	1    7400 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R36
+U 1 1 5EC26C1E
+P 7200 3650
+F 0 "R36" H 7141 3604 50  0000 R CNN
+F 1 "10k" H 7141 3695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7200 3650 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 7200 3650 50  0001 C CNN
+F 4 "Digikey" H 500 -1850 50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 500 -1850 50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ103X" H 500 -1850 50  0001 C CNN "MPN"
+	1    7200 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC3107B
+P 7200 3750
+F 0 "#PWR?" H 7200 3500 50  0001 C CNN
+F 1 "GND" H 7205 3577 50  0000 C CNN
+F 2 "" H 7200 3750 50  0001 C CNN
+F 3 "" H 7200 3750 50  0001 C CNN
+	1    7200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5EC31114
+P 7600 3350
+F 0 "#PWR?" H 7600 3200 50  0001 C CNN
+F 1 "VDD" H 7617 3523 50  0000 C CNN
+F 2 "" H 7600 3350 50  0001 C CNN
+F 3 "" H 7600 3350 50  0001 C CNN
+	1    7600 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3350 7600 3450
+Wire Wire Line
+	7600 3450 7500 3450
+Wire Wire Line
+	7200 3550 7200 3450
+Wire Wire Line
+	7200 3450 7300 3450
+Connection ~ 7200 3450
+Text Label 6800 3450 2    50   ~ 0
+VS
+$Comp
+L Device:C_Small C18
+U 1 1 5EC64C4E
+P 6900 3650
+F 0 "C18" H 6808 3604 50  0000 R CNN
+F 1 "0.1u" H 6808 3695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6900 3650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6900 3650 50  0001 C CNN
+F 4 "Digikey" H 500 1350 50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 500 1350 50  0001 C CNN "Link"
+F 6 "GRM155R62A104KE14D" H 500 1350 50  0001 C CNN "MPN"
+	1    6900 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3450 6900 3450
+Wire Wire Line
+	6900 3450 6900 3550
+Connection ~ 6900 3450
+Wire Wire Line
+	6900 3450 7200 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5EC84488
+P 6900 3750
+F 0 "#PWR?" H 6900 3500 50  0001 C CNN
+F 1 "GND" H 6905 3577 50  0000 C CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
