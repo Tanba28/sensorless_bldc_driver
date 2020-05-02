@@ -322,17 +322,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 1400 5350 1450
 $Comp
-L power:VDD #PWR0102
-U 1 1 5EA87D73
-P 5350 1000
-F 0 "#PWR0102" H 5350 850 50  0001 C CNN
-F 1 "VDD" H 5367 1173 50  0000 C CNN
-F 2 "" H 5350 1000 50  0001 C CNN
-F 3 "" H 5350 1000 50  0001 C CNN
-	1    5350 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_FET:BUK7M15-60EX Q3
 U 1 1 5EA89286
 P 6900 1200
@@ -402,17 +391,6 @@ Wire Wire Line
 	7200 1650 7000 1650
 Wire Wire Line
 	7000 1400 7000 1450
-$Comp
-L power:VDD #PWR0103
-U 1 1 5EA892B0
-P 7000 1000
-F 0 "#PWR0103" H 7000 850 50  0001 C CNN
-F 1 "VDD" H 7017 1173 50  0000 C CNN
-F 2 "" H 7000 1000 50  0001 C CNN
-F 3 "" H 7000 1000 50  0001 C CNN
-	1    7000 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_FET:BUK7M15-60EX Q5
 U 1 1 5EA8A514
@@ -486,12 +464,12 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR0104
 U 1 1 5EA8A53E
-P 8650 1000
-F 0 "#PWR0104" H 8650 850 50  0001 C CNN
-F 1 "VDD" H 8667 1173 50  0000 C CNN
-F 2 "" H 8650 1000 50  0001 C CNN
-F 3 "" H 8650 1000 50  0001 C CNN
-	1    8650 1000
+P 8650 750
+F 0 "#PWR0104" H 8650 600 50  0001 C CNN
+F 1 "VDD" H 8667 923 50  0000 C CNN
+F 2 "" H 8650 750 50  0001 C CNN
+F 3 "" H 8650 750 50  0001 C CNN
+	1    8650 750 
 	1    0    0    -1  
 $EndComp
 Text Label 4450 1450 0    50   ~ 0
@@ -1751,4 +1729,116 @@ NoConn ~ 3150 3250
 NoConn ~ 3150 3350
 NoConn ~ 3150 3450
 NoConn ~ 3150 3550
+Wire Wire Line
+	8650 1000 8650 750 
+Wire Wire Line
+	8650 750  8950 750 
+Connection ~ 8650 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5EC07216
+P 8950 950
+F 0 "#PWR?" H 8950 700 50  0001 C CNN
+F 1 "GND" H 8955 777 50  0000 C CNN
+F 2 "" H 8950 950 50  0001 C CNN
+F 3 "" H 8950 950 50  0001 C CNN
+	1    8950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5EC07660
+P 7000 750
+F 0 "#PWR?" H 7000 600 50  0001 C CNN
+F 1 "VDD" H 7017 923 50  0000 C CNN
+F 2 "" H 7000 750 50  0001 C CNN
+F 3 "" H 7000 750 50  0001 C CNN
+	1    7000 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1000 7000 750 
+Wire Wire Line
+	7000 750  7300 750 
+Connection ~ 7000 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5EC07673
+P 7300 950
+F 0 "#PWR?" H 7300 700 50  0001 C CNN
+F 1 "GND" H 7305 777 50  0000 C CNN
+F 2 "" H 7300 950 50  0001 C CNN
+F 3 "" H 7300 950 50  0001 C CNN
+	1    7300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5EC111A3
+P 5350 750
+F 0 "#PWR?" H 5350 600 50  0001 C CNN
+F 1 "VDD" H 5367 923 50  0000 C CNN
+F 2 "" H 5350 750 50  0001 C CNN
+F 3 "" H 5350 750 50  0001 C CNN
+	1    5350 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1000 5350 750 
+Wire Wire Line
+	5350 750  5650 750 
+Connection ~ 5350 750 
+$Comp
+L power:GND #PWR?
+U 1 1 5EC111B6
+P 5650 950
+F 0 "#PWR?" H 5650 700 50  0001 C CNN
+F 1 "GND" H 5655 777 50  0000 C CNN
+F 2 "" H 5650 950 50  0001 C CNN
+F 3 "" H 5650 950 50  0001 C CNN
+	1    5650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 5EC257BC
+P 5650 850
+F 0 "C15" H 5558 804 50  0000 R CNN
+F 1 "2.2u" H 5558 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 850 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5650 850 50  0001 C CNN
+F 4 "mouser" H 2700 -4600 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 2700 -4600 50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 2700 -4600 50  0001 C CNN "MPN"
+	1    5650 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5EC25AEF
+P 7300 850
+F 0 "C16" H 7208 804 50  0000 R CNN
+F 1 "2.2u" H 7208 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7300 850 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 7300 850 50  0001 C CNN
+F 4 "mouser" H 4350 -4600 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 4350 -4600 50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 4350 -4600 50  0001 C CNN "MPN"
+	1    7300 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 5EC25BB5
+P 8950 850
+F 0 "C17" H 8858 804 50  0000 R CNN
+F 1 "2.2u" H 8858 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 850 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8950 850 50  0001 C CNN
+F 4 "mouser" H 6000 -4600 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 6000 -4600 50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 6000 -4600 50  0001 C CNN "MPN"
+	1    8950 850 
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
