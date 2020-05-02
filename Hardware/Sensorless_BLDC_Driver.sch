@@ -62,8 +62,11 @@ U 1 1 5EA80CE9
 P 2300 4400
 F 0 "R2" V 2104 4400 50  0000 C CNN
 F 1 "10" V 2195 4400 50  0000 C CNN
-F 2 "" H 2300 4400 50  0001 C CNN
-F 3 "~" H 2300 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 4400 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 2300 4400 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF10R0X?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg%252Bh4oYh%252BSvTk%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF10R0X" H 0   0   50  0001 C CNN "MPN"
 	1    2300 4400
 	0    1    1    0   
 $EndComp
@@ -73,8 +76,11 @@ U 1 1 5EA80EC0
 P 2700 4400
 F 0 "D2" H 2700 4195 50  0000 C CNN
 F 1 "RSX101VAM-30" H 2700 4286 50  0000 C CNN
-F 2 "" V 2700 4400 50  0001 C CNN
-F 3 "~" V 2700 4400 50  0001 C CNN
+F 2 "Diode_SMD:D_TUMD2" V 2700 4400 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2700 4400 50  0001 C CNN
+F 4 "akizuki" H 0   0   50  0001 C CNN "Agency"
+F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 0   0   50  0001 C CNN "Link"
+F 6 "RSX101VAM-30TR" H 0   0   50  0001 C CNN "MPN"
 	1    2700 4400
 	-1   0    0    1   
 $EndComp
@@ -86,8 +92,11 @@ U 1 1 5EA8164A
 P 2300 4700
 F 0 "R3" V 2104 4700 50  0000 C CNN
 F 1 "10" V 2195 4700 50  0000 C CNN
-F 2 "" H 2300 4700 50  0001 C CNN
-F 3 "~" H 2300 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 4700 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 2300 4700 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF10R0X?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg%252Bh4oYh%252BSvTk%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF10R0X" H 0   0   50  0001 C CNN "MPN"
 	1    2300 4700
 	0    1    1    0   
 $EndComp
@@ -97,8 +106,11 @@ U 1 1 5EA81651
 P 2700 4700
 F 0 "D3" H 2700 4495 50  0000 C CNN
 F 1 "RSX101VAM-30" H 2700 4586 50  0000 C CNN
-F 2 "" V 2700 4700 50  0001 C CNN
-F 3 "~" V 2700 4700 50  0001 C CNN
+F 2 "Diode_SMD:D_TUMD2" V 2700 4700 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2700 4700 50  0001 C CNN
+F 4 "akizuki" H 0   0   50  0001 C CNN "Agency"
+F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 0   0   50  0001 C CNN "Link"
+F 6 "RSX101VAM-30TR" H 0   0   50  0001 C CNN "MPN"
 	1    2700 4700
 	-1   0    0    1   
 $EndComp
@@ -110,8 +122,11 @@ U 1 1 5EA81705
 P 2300 5000
 F 0 "R4" V 2104 5000 50  0000 C CNN
 F 1 "10" V 2195 5000 50  0000 C CNN
-F 2 "" H 2300 5000 50  0001 C CNN
-F 3 "~" H 2300 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 5000 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 2300 5000 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF10R0X?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg%252Bh4oYh%252BSvTk%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF10R0X" H 0   0   50  0001 C CNN "MPN"
 	1    2300 5000
 	0    1    1    0   
 $EndComp
@@ -121,8 +136,11 @@ U 1 1 5EA8170C
 P 2700 5000
 F 0 "D4" H 2700 4795 50  0000 C CNN
 F 1 "RSX101VAM-30" H 2700 4886 50  0000 C CNN
-F 2 "" V 2700 5000 50  0001 C CNN
-F 3 "~" V 2700 5000 50  0001 C CNN
+F 2 "Diode_SMD:D_TUMD2" V 2700 5000 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2700 5000 50  0001 C CNN
+F 4 "akizuki" H 0   0   50  0001 C CNN "Agency"
+F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 0   0   50  0001 C CNN "Link"
+F 6 "RSX101VAM-30TR" H 0   0   50  0001 C CNN "MPN"
 	1    2700 5000
 	-1   0    0    1   
 $EndComp
@@ -134,8 +152,11 @@ U 1 1 5EA8179D
 P 2950 5450
 F 0 "C5" H 2858 5404 50  0000 R CNN
 F 1 "2.2u" H 2858 5495 50  0000 R CNN
-F 2 "" H 2950 5450 50  0001 C CNN
-F 3 "~" H 2950 5450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2950 5450 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 2950 5450 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 0   0   50  0001 C CNN "MPN"
 	1    2950 5450
 	-1   0    0    1   
 $EndComp
@@ -166,8 +187,11 @@ U 1 1 5EA81B66
 P 3250 5950
 F 0 "C6" H 3158 5904 50  0000 R CNN
 F 1 "2.2u" H 3158 5995 50  0000 R CNN
-F 2 "" H 3250 5950 50  0001 C CNN
-F 3 "~" H 3250 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3250 5950 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 3250 5950 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 0   0   50  0001 C CNN "MPN"
 	1    3250 5950
 	-1   0    0    1   
 $EndComp
@@ -189,8 +213,11 @@ U 1 1 5EA81E64
 P 3550 6450
 F 0 "C7" H 3458 6404 50  0000 R CNN
 F 1 "2.2u" H 3458 6495 50  0000 R CNN
-F 2 "" H 3550 6450 50  0001 C CNN
-F 3 "~" H 3550 6450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3550 6450 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 3550 6450 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 0   0   50  0001 C CNN "MPN"
 	1    3550 6450
 	-1   0    0    1   
 $EndComp
@@ -214,8 +241,11 @@ U 1 1 5EA82157
 P 4850 1200
 F 0 "R5" V 4654 1200 50  0000 C CNN
 F 1 "4.7" V 4745 1200 50  0000 C CNN
-F 2 "" H 4850 1200 50  0001 C CNN
-F 3 "~" H 4850 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1200 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4850 1200 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    4850 1200
 	0    1    1    0   
 $EndComp
@@ -229,8 +259,11 @@ U 1 1 5EA82626
 P 4850 1900
 F 0 "R6" V 4654 1900 50  0000 C CNN
 F 1 "4.7" V 4745 1900 50  0000 C CNN
-F 2 "" H 4850 1900 50  0001 C CNN
-F 3 "~" H 4850 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 1900 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 4850 1900 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    4850 1900
 	0    1    1    0   
 $EndComp
@@ -335,8 +368,11 @@ U 1 1 5EA89298
 P 6500 1200
 F 0 "R7" V 6304 1200 50  0000 C CNN
 F 1 "4.7" V 6395 1200 50  0000 C CNN
-F 2 "" H 6500 1200 50  0001 C CNN
-F 3 "~" H 6500 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6500 1200 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6500 1200 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    6500 1200
 	0    1    1    0   
 $EndComp
@@ -350,8 +386,11 @@ U 1 1 5EA892A2
 P 6500 1900
 F 0 "R8" V 6304 1900 50  0000 C CNN
 F 1 "4.7" V 6395 1900 50  0000 C CNN
-F 2 "" H 6500 1900 50  0001 C CNN
-F 3 "~" H 6500 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6500 1900 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6500 1900 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    6500 1900
 	0    1    1    0   
 $EndComp
@@ -410,8 +449,11 @@ U 1 1 5EA8A526
 P 8150 1200
 F 0 "R9" V 7954 1200 50  0000 C CNN
 F 1 "4.7" V 8045 1200 50  0000 C CNN
-F 2 "" H 8150 1200 50  0001 C CNN
-F 3 "~" H 8150 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8150 1200 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8150 1200 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    8150 1200
 	0    1    1    0   
 $EndComp
@@ -425,8 +467,11 @@ U 1 1 5EA8A530
 P 8150 1900
 F 0 "R10" V 7954 1900 50  0000 C CNN
 F 1 "4.7" V 8045 1900 50  0000 C CNN
-F 2 "" H 8150 1900 50  0001 C CNN
-F 3 "~" H 8150 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8150 1900 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8150 1900 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    8150 1900
 	0    1    1    0   
 $EndComp
@@ -461,8 +506,11 @@ U 1 1 5EA8FB0D
 P 1800 4550
 F 0 "C4" H 1708 4504 50  0000 R CNN
 F 1 "1u" H 1708 4595 50  0000 R CNN
-F 2 "" H 1800 4550 50  0001 C CNN
-F 3 "~" H 1800 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1800 4550 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 1800 4550 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R61E105KA12D/490-10017-1-ND/5026367" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM155R61E105KA12D" H 0   0   50  0001 C CNN "MPN"
 	1    1800 4550
 	-1   0    0    1   
 $EndComp
@@ -487,9 +535,10 @@ L Device:CP_Small C1
 U 1 1 5EA91B06
 P 9800 2100
 F 0 "C1" H 9888 2146 50  0000 L CNN
-F 1 "1000u" H 9888 2055 50  0000 L CNN
-F 2 "" H 9800 2100 50  0001 C CNN
-F 3 "~" H 9800 2100 50  0001 C CNN
+F 1 "470u" H 9888 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 9800 2100 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 9800 2100 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
 	1    9800 2100
 	1    0    0    -1  
 $EndComp
@@ -525,8 +574,11 @@ U 1 1 5EA94A8D
 P 10200 2100
 F 0 "C2" H 10288 2146 50  0000 L CNN
 F 1 "100u" H 10288 2055 50  0000 L CNN
-F 2 "" H 10200 2100 50  0001 C CNN
-F 3 "~" H 10200 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 10200 2100 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 10200 2100 50  0001 C CNN
+F 4 "DIgikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/nichicon/UWT1E471MNL1GS/493-2194-1-ND/590169" H 0   0   50  0001 C CNN "Link"
+F 6 "UWT1E471MNL1GS" H 0   0   50  0001 C CNN "MPN"
 	1    10200 2100
 	1    0    0    -1  
 $EndComp
@@ -536,8 +588,11 @@ U 1 1 5EA94B5C
 P 10600 2100
 F 0 "C3" H 10508 2054 50  0000 R CNN
 F 1 "1u" H 10508 2145 50  0000 R CNN
-F 2 "" H 10600 2100 50  0001 C CNN
-F 3 "~" H 10600 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10600 2100 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E105KA12-01.pdf" H 10600 2100 50  0001 C CNN
+F 4 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R61E105KA12D/490-10017-1-ND/5026367" H 0   0   50  0001 C CNN "Link"
+F 5 "GRM155R61E105KA12D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "Agency"
 	1    10600 2100
 	-1   0    0    1   
 $EndComp
@@ -571,8 +626,11 @@ U 1 1 5EA99288
 P 10050 3800
 F 0 "J2" H 10023 3730 50  0000 R CNN
 F 1 "MOTOR" H 10023 3821 50  0000 R CNN
-F 2 "" H 10050 3800 50  0001 C CNN
-F 3 "~" H 10050 3800 50  0001 C CNN
+F 2 "Connector_Hirose:Hirose_DF63M-3P-3.96DSA_1x03_P3.96mm_Vertical" H 10050 3800 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF63&documenttype=Catalog&lang=en&documentid=D31622_ja" H 10050 3800 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Hirose-Connector/DF63M-3P-396DSA?qs=sGAEpiMZZMvlX3nhDDO4ADf%252Bp9sbtHSJ34uorugIvF4%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "DF63M-3P-3.96DSA" H 0   0   50  0001 C CNN "MPN"
 	1    10050 3800
 	-1   0    0    1   
 $EndComp
@@ -584,17 +642,6 @@ Wire Wire Line
 	9850 3800 9750 3800
 Wire Wire Line
 	9850 3900 9750 3900
-$Comp
-L KUTKiCad_symbol:PSoC5LP_Prototyping_Kit U1
-U 1 1 5EAA15DD
-P 2350 2100
-F 0 "U1" H 2350 3575 50  0000 C CNN
-F 1 "PSoC5LP_Prototyping_Kit" H 2350 3484 50  0000 C CNN
-F 2 "" H 250 3400 50  0001 C CNN
-F 3 "" H 250 3400 50  0001 C CNN
-	1    2350 2100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5EA883D2
@@ -642,8 +689,11 @@ U 1 1 5EABA62B
 P 7400 4600
 F 0 "R23" V 7204 4600 50  0000 C CNN
 F 1 "33k" V 7295 4600 50  0000 C CNN
-F 2 "" H 7400 4600 50  0001 C CNN
-F 3 "~" H 7400 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 4600 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 7400 4600 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   0   50  0001 C CNN "MPN"
 	1    7400 4600
 	0    1    1    0   
 $EndComp
@@ -653,8 +703,11 @@ U 1 1 5EABA70D
 P 7400 4900
 F 0 "R24" V 7204 4900 50  0000 C CNN
 F 1 "33k" V 7295 4900 50  0000 C CNN
-F 2 "" H 7400 4900 50  0001 C CNN
-F 3 "~" H 7400 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 4900 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 7400 4900 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   0   50  0001 C CNN "MPN"
 	1    7400 4900
 	0    1    1    0   
 $EndComp
@@ -664,8 +717,11 @@ U 1 1 5EABA765
 P 7400 5200
 F 0 "R25" V 7204 5200 50  0000 C CNN
 F 1 "33k" V 7295 5200 50  0000 C CNN
-F 2 "" H 7400 5200 50  0001 C CNN
-F 3 "~" H 7400 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 5200 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 7400 5200 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   0   50  0001 C CNN "MPN"
 	1    7400 5200
 	0    1    1    0   
 $EndComp
@@ -681,8 +737,11 @@ U 1 1 5EAC71FF
 P 6350 5500
 F 0 "R31" H 6291 5454 50  0000 R CNN
 F 1 "33k" H 6291 5545 50  0000 R CNN
-F 2 "" H 6350 5500 50  0001 C CNN
-F 3 "~" H 6350 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6350 5500 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 6350 5500 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   0   50  0001 C CNN "MPN"
 	1    6350 5500
 	-1   0    0    1   
 $EndComp
@@ -692,8 +751,11 @@ U 1 1 5EACF206
 P 7200 5500
 F 0 "R28" H 7141 5454 50  0000 R CNN
 F 1 "10k" H 7141 5545 50  0000 R CNN
-F 2 "" H 7200 5500 50  0001 C CNN
-F 3 "~" H 7200 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7200 5500 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 7200 5500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ103X" H 0   0   50  0001 C CNN "MPN"
 	1    7200 5500
 	-1   0    0    1   
 $EndComp
@@ -703,8 +765,11 @@ U 1 1 5EACF359
 P 6950 5500
 F 0 "R27" H 6891 5454 50  0000 R CNN
 F 1 "10k" H 6891 5545 50  0000 R CNN
-F 2 "" H 6950 5500 50  0001 C CNN
-F 3 "~" H 6950 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6950 5500 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6950 5500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ103X" H 0   0   50  0001 C CNN "MPN"
 	1    6950 5500
 	-1   0    0    1   
 $EndComp
@@ -714,8 +779,11 @@ U 1 1 5EACF3B9
 P 6700 5500
 F 0 "R26" H 6641 5454 50  0000 R CNN
 F 1 "10k" H 6641 5545 50  0000 R CNN
-F 2 "" H 6700 5500 50  0001 C CNN
-F 3 "~" H 6700 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6700 5500 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6700 5500 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ103X" H 0   0   50  0001 C CNN "MPN"
 	1    6700 5500
 	-1   0    0    1   
 $EndComp
@@ -781,8 +849,11 @@ U 1 1 5EB2A01F
 P 6100 5500
 F 0 "R30" H 6041 5454 50  0000 R CNN
 F 1 "33k" H 6041 5545 50  0000 R CNN
-F 2 "" H 6100 5500 50  0001 C CNN
-F 3 "~" H 6100 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6100 5500 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 6100 5500 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   0   50  0001 C CNN "MPN"
 	1    6100 5500
 	-1   0    0    1   
 $EndComp
@@ -792,8 +863,11 @@ U 1 1 5EB2A07F
 P 5850 5500
 F 0 "R29" H 5791 5454 50  0000 R CNN
 F 1 "33k" H 5791 5545 50  0000 R CNN
-F 2 "" H 5850 5500 50  0001 C CNN
-F 3 "~" H 5850 5500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5850 5500 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5850 5500 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   0   50  0001 C CNN "MPN"
 	1    5850 5500
 	-1   0    0    1   
 $EndComp
@@ -829,8 +903,11 @@ U 1 1 5EB50576
 P 5600 4600
 F 0 "R32" V 5404 4600 50  0000 C CNN
 F 1 "120" V 5495 4600 50  0000 C CNN
-F 2 "" H 5600 4600 50  0001 C CNN
-F 3 "~" H 5600 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 4600 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4600 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
 	1    5600 4600
 	0    1    1    0   
 $EndComp
@@ -840,8 +917,11 @@ U 1 1 5EB50898
 P 5600 4900
 F 0 "R33" V 5404 4900 50  0000 C CNN
 F 1 "120" V 5495 4900 50  0000 C CNN
-F 2 "" H 5600 4900 50  0001 C CNN
-F 3 "~" H 5600 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 4900 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4900 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
 	1    5600 4900
 	0    1    1    0   
 $EndComp
@@ -851,8 +931,11 @@ U 1 1 5EB508FA
 P 5600 5200
 F 0 "R34" V 5404 5200 50  0000 C CNN
 F 1 "120" V 5495 5200 50  0000 C CNN
-F 2 "" H 5600 5200 50  0001 C CNN
-F 3 "~" H 5600 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 5200 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 5200 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
 	1    5600 5200
 	0    1    1    0   
 $EndComp
@@ -871,8 +954,11 @@ U 1 1 5EB5D7FD
 P 5400 5500
 F 0 "C14" H 5308 5454 50  0000 R CNN
 F 1 "82p" H 5308 5545 50  0000 R CNN
-F 2 "" H 5400 5500 50  0001 C CNN
-F 3 "~" H 5400 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5400 5500 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5400 5500 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM1555C1H820JA01D?qs=sGAEpiMZZMs0AnBnWHyRQJFx1SN4r7R8%2FsD9Qp3Vk34%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM1555C1H820JA01D" H 0   0   50  0001 C CNN "MPN"
 	1    5400 5500
 	-1   0    0    1   
 $EndComp
@@ -882,8 +968,11 @@ U 1 1 5EB5D98A
 P 5100 5500
 F 0 "C13" H 5008 5454 50  0000 R CNN
 F 1 "82p" H 5008 5545 50  0000 R CNN
-F 2 "" H 5100 5500 50  0001 C CNN
-F 3 "~" H 5100 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5100 5500 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5100 5500 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM1555C1H820JA01D?qs=sGAEpiMZZMs0AnBnWHyRQJFx1SN4r7R8%2FsD9Qp3Vk34%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM1555C1H820JA01D" H 0   0   50  0001 C CNN "MPN"
 	1    5100 5500
 	-1   0    0    1   
 $EndComp
@@ -893,8 +982,11 @@ U 1 1 5EB5D9F8
 P 4800 5500
 F 0 "C12" H 4708 5454 50  0000 R CNN
 F 1 "82p" H 4708 5545 50  0000 R CNN
-F 2 "" H 4800 5500 50  0001 C CNN
-F 3 "~" H 4800 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4800 5500 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 4800 5500 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM1555C1H820JA01D?qs=sGAEpiMZZMs0AnBnWHyRQJFx1SN4r7R8%2FsD9Qp3Vk34%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM1555C1H820JA01D" H 0   0   50  0001 C CNN "MPN"
 	1    4800 5500
 	-1   0    0    1   
 $EndComp
@@ -962,54 +1054,49 @@ Voltage Divider\n
 $Comp
 L power:GND #PWR0116
 U 1 1 5EB97C16
-P 1450 3450
-F 0 "#PWR0116" H 1450 3200 50  0001 C CNN
-F 1 "GND" H 1455 3277 50  0000 C CNN
-F 2 "" H 1450 3450 50  0001 C CNN
-F 3 "" H 1450 3450 50  0001 C CNN
-	1    1450 3450
-	1    0    0    -1  
+P 1350 1050
+F 0 "#PWR0116" H 1350 800 50  0001 C CNN
+F 1 "GND" H 1355 877 50  0000 C CNN
+F 2 "" H 1350 1050 50  0001 C CNN
+F 3 "" H 1350 1050 50  0001 C CNN
+	1    1350 1050
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5EB97CCD
-P 3300 3450
-F 0 "#PWR0117" H 3300 3200 50  0001 C CNN
-F 1 "GND" H 3305 3277 50  0000 C CNN
-F 2 "" H 3300 3450 50  0001 C CNN
-F 3 "" H 3300 3450 50  0001 C CNN
-	1    3300 3450
-	1    0    0    -1  
+P 3300 1150
+F 0 "#PWR0117" H 3300 900 50  0001 C CNN
+F 1 "GND" H 3305 977 50  0000 C CNN
+F 2 "" H 3300 1150 50  0001 C CNN
+F 3 "" H 3300 1150 50  0001 C CNN
+	1    3300 1150
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	3300 3450 3300 3250
-Wire Wire Line
-	3300 3250 3150 3250
-Wire Wire Line
-	1450 3450 1450 3350
-Wire Wire Line
-	1450 3350 1550 3350
 $Comp
 L power:GND #PWR0118
 U 1 1 5EBA0398
-P 1250 950
-F 0 "#PWR0118" H 1250 700 50  0001 C CNN
-F 1 "GND" H 1255 777 50  0000 C CNN
-F 2 "" H 1250 950 50  0001 C CNN
-F 3 "" H 1250 950 50  0001 C CNN
-	1    1250 950 
-	1    0    0    -1  
+P 1250 3450
+F 0 "#PWR0118" H 1250 3200 50  0001 C CNN
+F 1 "GND" H 1255 3277 50  0000 C CNN
+F 2 "" H 1250 3450 50  0001 C CNN
+F 3 "" H 1250 3450 50  0001 C CNN
+	1    1250 3450
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 950  1550 950 
+	1250 3450 1550 3450
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5EBA4E51
 P 10050 3100
 F 0 "J1" H 10022 3073 50  0000 R CNN
 F 1 "POWER" H 10022 2982 50  0000 R CNN
-F 2 "" H 10050 3100 50  0001 C CNN
-F 3 "~" H 10050 3100 50  0001 C CNN
+F 2 "Connector_Hirose:Hirose_DF63M-2P-3.96DSA_1x02_P3.96mm_Vertical" H 10050 3100 50  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF63&documenttype=Catalog&lang=en&documentid=D31622_ja" H 10050 3100 50  0001 C CNN
+F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Hirose-Connector/DF63M-2P-396DSA?qs=sGAEpiMZZMuyN6ZGvFhteTZk7n8ferJ4dPrvZ0xUyi6TkXnGsFceHw%3D%3D" H 0   0   50  0001 C CNN "Link"
+F 6 "DF63M-2P-3.96DSA" H 0   0   50  0001 C CNN "MPN"
 	1    10050 3100
 	-1   0    0    -1  
 $EndComp
@@ -1043,35 +1130,35 @@ Wire Wire Line
 	9750 3000 9750 3100
 Wire Wire Line
 	9750 3100 9850 3100
-Text Label 3400 2450 2    50   ~ 0
+Text Label 3400 1950 2    50   ~ 0
 HIN_1
-Text Label 3400 2550 2    50   ~ 0
+Text Label 3400 1850 2    50   ~ 0
 LIN_1
-Text Label 3400 2650 2    50   ~ 0
+Text Label 3400 1750 2    50   ~ 0
 HIN_2
-Text Label 3400 2750 2    50   ~ 0
+Text Label 3400 1650 2    50   ~ 0
 LIN_2
-Text Label 3400 2850 2    50   ~ 0
+Text Label 3400 1550 2    50   ~ 0
 HIN_3
-Text Label 3400 2950 2    50   ~ 0
+Text Label 3400 1450 2    50   ~ 0
 LIN_3
 Wire Wire Line
-	3150 2450 3400 2450
+	3150 1950 3400 1950
 Wire Wire Line
-	3400 2550 3150 2550
+	3400 1850 3150 1850
 Wire Wire Line
-	3150 2650 3400 2650
+	3150 1750 3400 1750
 Wire Wire Line
-	3400 2750 3150 2750
+	3400 1650 3150 1650
 Wire Wire Line
-	3400 2850 3150 2850
+	3400 1550 3150 1550
 Wire Wire Line
-	3400 2950 3150 2950
-Text Label 1550 1850 2    50   ~ 0
+	3400 1450 3150 1450
+Text Label 3150 2850 0    50   ~ 0
 BEMF1
-Text Label 1550 1750 2    50   ~ 0
+Text Label 3150 2950 0    50   ~ 0
 BEMF2
-Text Label 1550 1350 2    50   ~ 0
+Text Label 3150 3050 0    50   ~ 0
 BEMF3
 $Comp
 L Device:R_Small R11
@@ -1079,8 +1166,11 @@ U 1 1 5EAE2E75
 P 5350 2300
 F 0 "R11" H 5291 2254 50  0000 R CNN
 F 1 "2m" H 5291 2345 50  0000 R CNN
-F 2 "" H 5350 2300 50  0001 C CNN
-F 3 "~" H 5350 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5350 2300 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 5350 2300 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR10EZPFV2L00/RHM.002AJCT-ND/2094528" H 0   0   50  0001 C CNN "Link"
+F 6 "PMR10EZPFV2L00" H 0   0   50  0001 C CNN "MPN"
 	1    5350 2300
 	-1   0    0    1   
 $EndComp
@@ -1092,8 +1182,11 @@ U 1 1 5EB1324C
 P 5100 2150
 F 0 "R12" V 4904 2150 50  0000 C CNN
 F 1 "4.7" V 4995 2150 50  0000 C CNN
-F 2 "" H 5100 2150 50  0001 C CNN
-F 3 "~" H 5100 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 2150 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5100 2150 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    5100 2150
 	0    1    1    0   
 $EndComp
@@ -1103,8 +1196,11 @@ U 1 1 5EB13777
 P 4750 2300
 F 0 "C8" H 4658 2254 50  0000 R CNN
 F 1 "0.1u" H 4658 2345 50  0000 R CNN
-F 2 "" H 4750 2300 50  0001 C CNN
-F 3 "~" H 4750 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 4750 2300 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM155R62A104KE14D" H 0   0   50  0001 C CNN "MPN"
 	1    4750 2300
 	-1   0    0    1   
 $EndComp
@@ -1130,8 +1226,11 @@ U 1 1 5EB667E3
 P 7000 2300
 F 0 "R14" H 6941 2254 50  0000 R CNN
 F 1 "2m" H 6941 2345 50  0000 R CNN
-F 2 "" H 7000 2300 50  0001 C CNN
-F 3 "~" H 7000 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7000 2300 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 7000 2300 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR10EZPFV2L00/RHM.002AJCT-ND/2094528" H 0   0   50  0001 C CNN "Link"
+F 6 "PMR10EZPFV2L00" H 0   0   50  0001 C CNN "MPN"
 	1    7000 2300
 	-1   0    0    1   
 $EndComp
@@ -1145,8 +1244,11 @@ U 1 1 5EB667EC
 P 6750 2150
 F 0 "R15" V 6554 2150 50  0000 C CNN
 F 1 "4.7" V 6645 2150 50  0000 C CNN
-F 2 "" H 6750 2150 50  0001 C CNN
-F 3 "~" H 6750 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 2150 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6750 2150 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    6750 2150
 	0    1    1    0   
 $EndComp
@@ -1156,8 +1258,11 @@ U 1 1 5EB667F3
 P 6750 2450
 F 0 "R16" V 6554 2450 50  0000 C CNN
 F 1 "4.7" V 6645 2450 50  0000 C CNN
-F 2 "" H 6750 2450 50  0001 C CNN
-F 3 "~" H 6750 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 2450 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 6750 2450 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    6750 2450
 	0    1    1    0   
 $EndComp
@@ -1167,8 +1272,11 @@ U 1 1 5EB667FA
 P 6400 2300
 F 0 "C9" H 6308 2254 50  0000 R CNN
 F 1 "0.1u" H 6308 2345 50  0000 R CNN
-F 2 "" H 6400 2300 50  0001 C CNN
-F 3 "~" H 6400 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 2300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6400 2300 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM155R62A104KE14D" H 0   0   50  0001 C CNN "MPN"
 	1    6400 2300
 	-1   0    0    1   
 $EndComp
@@ -1204,8 +1312,11 @@ U 1 1 5EB8E613
 P 8650 2300
 F 0 "R17" H 8591 2254 50  0000 R CNN
 F 1 "2m" H 8591 2345 50  0000 R CNN
-F 2 "" H 8650 2300 50  0001 C CNN
-F 3 "~" H 8650 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8650 2300 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 8650 2300 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR10EZPFV2L00/RHM.002AJCT-ND/2094528" H 0   0   50  0001 C CNN "Link"
+F 6 "PMR10EZPFV2L00" H 0   0   50  0001 C CNN "MPN"
 	1    8650 2300
 	-1   0    0    1   
 $EndComp
@@ -1219,8 +1330,11 @@ U 1 1 5EB8E61C
 P 8400 2150
 F 0 "R18" V 8204 2150 50  0000 C CNN
 F 1 "4.7" V 8295 2150 50  0000 C CNN
-F 2 "" H 8400 2150 50  0001 C CNN
-F 3 "~" H 8400 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 2150 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8400 2150 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    8400 2150
 	0    1    1    0   
 $EndComp
@@ -1230,8 +1344,11 @@ U 1 1 5EB8E623
 P 8400 2450
 F 0 "R19" V 8204 2450 50  0000 C CNN
 F 1 "4.7" V 8295 2450 50  0000 C CNN
-F 2 "" H 8400 2450 50  0001 C CNN
-F 3 "~" H 8400 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 2450 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8400 2450 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    8400 2450
 	0    1    1    0   
 $EndComp
@@ -1241,8 +1358,11 @@ U 1 1 5EB8E62A
 P 8050 2300
 F 0 "C10" H 7958 2254 50  0000 R CNN
 F 1 "0.1u" H 7958 2345 50  0000 R CNN
-F 2 "" H 8050 2300 50  0001 C CNN
-F 3 "~" H 8050 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 2300 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 8050 2300 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM155R62A104KE14D" H 0   0   50  0001 C CNN "MPN"
 	1    8050 2300
 	-1   0    0    1   
 $EndComp
@@ -1297,19 +1417,19 @@ Wire Wire Line
 Connection ~ 5400 5200
 Wire Wire Line
 	5400 5200 5500 5200
-Text Label 1550 1250 2    50   ~ 0
+Text Label 3150 3150 0    50   ~ 0
 BEMF_N
-Text Label 1550 3050 2    50   ~ 0
+Text Label 1550 1950 2    50   ~ 0
 ISH_1
-Text Label 1550 2950 2    50   ~ 0
+Text Label 1550 2050 2    50   ~ 0
 ISL_1
-Text Label 1550 2850 2    50   ~ 0
+Text Label 1550 2150 2    50   ~ 0
 ISH_2
-Text Label 1550 2750 2    50   ~ 0
+Text Label 1550 2250 2    50   ~ 0
 ISL_2
-Text Label 1550 2650 2    50   ~ 0
+Text Label 1550 2350 2    50   ~ 0
 ISH_3
-Text Label 1550 2550 2    50   ~ 0
+Text Label 1550 2450 2    50   ~ 0
 ISL_3
 $Comp
 L Device:R_Small R1
@@ -1317,8 +1437,11 @@ U 1 1 5EC3A745
 P 8700 3350
 F 0 "R1" H 8641 3304 50  0000 R CNN
 F 1 "4.7k" H 8641 3395 50  0000 R CNN
-F 2 "" H 8700 3350 50  0001 C CNN
-F 3 "~" H 8700 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8700 3350 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 8700 3350 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ472X/P4.7KJCT-ND/147025" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ472X" H 0   0   50  0001 C CNN "MPN"
 	1    8700 3350
 	-1   0    0    1   
 $EndComp
@@ -1328,7 +1451,7 @@ U 1 1 5EC3A87D
 P 8700 3550
 F 0 "D1" V 8746 3482 50  0000 R CNN
 F 1 "Red" V 8655 3482 50  0000 R CNN
-F 2 "" V 8700 3550 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8700 3550 50  0001 C CNN
 F 3 "~" V 8700 3550 50  0001 C CNN
 	1    8700 3550
 	0    -1   -1   0   
@@ -1385,8 +1508,11 @@ U 1 1 5EB00B18
 P 5100 2450
 F 0 "R13" V 4904 2450 50  0000 C CNN
 F 1 "4.7" V 4995 2450 50  0000 C CNN
-F 2 "" H 5100 2450 50  0001 C CNN
-F 3 "~" H 5100 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 2450 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5100 2450 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    5100 2450
 	0    1    1    0   
 $EndComp
@@ -1411,8 +1537,11 @@ U 1 1 5EC30B46
 P 5350 2900
 F 0 "R20" H 5291 2854 50  0000 R CNN
 F 1 "2m" H 5291 2945 50  0000 R CNN
-F 2 "" H 5350 2900 50  0001 C CNN
-F 3 "~" H 5350 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5350 2900 50  0001 C CNN
+F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 5350 2900 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR10EZPFV2L00/RHM.002AJCT-ND/2094528" H 0   0   50  0001 C CNN "Link"
+F 6 "PMR10EZPFV2L00" H 0   0   50  0001 C CNN "MPN"
 	1    5350 2900
 	-1   0    0    1   
 $EndComp
@@ -1422,8 +1551,11 @@ U 1 1 5EC30B4E
 P 5100 2750
 F 0 "R21" V 4904 2750 50  0000 C CNN
 F 1 "4.7" V 4995 2750 50  0000 C CNN
-F 2 "" H 5100 2750 50  0001 C CNN
-F 3 "~" H 5100 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 2750 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5100 2750 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    5100 2750
 	0    1    1    0   
 $EndComp
@@ -1433,8 +1565,11 @@ U 1 1 5EC30B55
 P 4750 2900
 F 0 "C11" H 4658 2854 50  0000 R CNN
 F 1 "0.1u" H 4658 2945 50  0000 R CNN
-F 2 "" H 4750 2900 50  0001 C CNN
-F 3 "~" H 4750 2900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 4750 2900 50  0001 C CNN
+F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 0   0   50  0001 C CNN "Link"
+F 6 "GRM155R62A104KE14D" H 0   0   50  0001 C CNN "MPN"
 	1    4750 2900
 	-1   0    0    1   
 $EndComp
@@ -1462,8 +1597,11 @@ U 1 1 5EC30B66
 P 5100 3050
 F 0 "R22" V 4904 3050 50  0000 C CNN
 F 1 "4.7" V 4995 3050 50  0000 C CNN
-F 2 "" H 5100 3050 50  0001 C CNN
-F 3 "~" H 5100 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 3050 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5100 3050 50  0001 C CNN
+F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
 	1    5100 3050
 	0    1    1    0   
 $EndComp
@@ -1489,10 +1627,10 @@ Wire Wire Line
 	5350 3050 5350 3200
 Connection ~ 5350 3050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5EC720E0
 P 5350 3200
-F 0 "#PWR?" H 5350 2950 50  0001 C CNN
+F 0 "#PWR0108" H 5350 2950 50  0001 C CNN
 F 1 "GND" H 5355 3027 50  0000 C CNN
 F 2 "" H 5350 3200 50  0001 C CNN
 F 3 "" H 5350 3200 50  0001 C CNN
@@ -1563,8 +1701,54 @@ Wire Wire Line
 Connection ~ 5950 5700
 Wire Wire Line
 	5950 5700 5850 5700
-Text Label 1550 3250 2    50   ~ 0
+Text Label 1550 1750 2    50   ~ 0
 ISH
-Text Label 1550 3150 2    50   ~ 0
+Text Label 1550 1850 2    50   ~ 0
 ISL
+$Comp
+L KUTKiCad_symbol:PSoC5LP_Prototyping_Kit U1
+U 1 1 5EAEBB0A
+P 2350 2300
+F 0 "U1" H 2350 3775 50  0000 C CNN
+F 1 "PSoC5LP_Prototyping_Kit" H 2350 3684 50  0000 C CNN
+F 2 "KUTKiCad_footprint:CY8CKIT-059" H 250 3600 50  0001 C CNN
+F 3 "" H 250 3600 50  0001 C CNN
+	1    2350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1050 1550 1050
+Wire Wire Line
+	3300 1150 3150 1150
+NoConn ~ 1550 1150
+NoConn ~ 1550 1250
+NoConn ~ 1550 1350
+NoConn ~ 1550 1450
+NoConn ~ 1550 1550
+NoConn ~ 1550 1650
+NoConn ~ 1550 2550
+NoConn ~ 1550 2650
+NoConn ~ 1550 2750
+NoConn ~ 1550 2850
+NoConn ~ 1550 2950
+NoConn ~ 1550 3050
+NoConn ~ 1550 3150
+NoConn ~ 1550 3250
+NoConn ~ 1550 3350
+NoConn ~ 1550 3550
+NoConn ~ 3150 1050
+NoConn ~ 3150 1250
+NoConn ~ 3150 1350
+NoConn ~ 3150 2050
+NoConn ~ 3150 2150
+NoConn ~ 3150 2250
+NoConn ~ 3150 2350
+NoConn ~ 3150 2450
+NoConn ~ 3150 2550
+NoConn ~ 3150 2650
+NoConn ~ 3150 2750
+NoConn ~ 3150 3250
+NoConn ~ 3150 3350
+NoConn ~ 3150 3450
+NoConn ~ 3150 3550
 $EndSCHEMATC
