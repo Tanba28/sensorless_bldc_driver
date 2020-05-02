@@ -1,0 +1,8 @@
+# PSoC_Creator
+*.cywrk.*
+/*.cydsn/*
+!*.c
+!*.h
+!*.cydwr
+!*.cyprj
+!/*.cydsn/TopDesign
