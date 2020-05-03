@@ -322,17 +322,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 1400 5350 1450
 $Comp
-L power:VDD #PWR0102
-U 1 1 5EA87D73
-P 5350 1000
-F 0 "#PWR0102" H 5350 850 50  0001 C CNN
-F 1 "VDD" H 5367 1173 50  0000 C CNN
-F 2 "" H 5350 1000 50  0001 C CNN
-F 3 "" H 5350 1000 50  0001 C CNN
-	1    5350 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Transistor_FET:BUK7M15-60EX Q3
 U 1 1 5EA89286
 P 6900 1200
@@ -402,17 +391,6 @@ Wire Wire Line
 	7200 1650 7000 1650
 Wire Wire Line
 	7000 1400 7000 1450
-$Comp
-L power:VDD #PWR0103
-U 1 1 5EA892B0
-P 7000 1000
-F 0 "#PWR0103" H 7000 850 50  0001 C CNN
-F 1 "VDD" H 7017 1173 50  0000 C CNN
-F 2 "" H 7000 1000 50  0001 C CNN
-F 3 "" H 7000 1000 50  0001 C CNN
-	1    7000 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_FET:BUK7M15-60EX Q5
 U 1 1 5EA8A514
@@ -486,12 +464,12 @@ Wire Wire Line
 $Comp
 L power:VDD #PWR0104
 U 1 1 5EA8A53E
-P 8650 1000
-F 0 "#PWR0104" H 8650 850 50  0001 C CNN
-F 1 "VDD" H 8667 1173 50  0000 C CNN
-F 2 "" H 8650 1000 50  0001 C CNN
-F 3 "" H 8650 1000 50  0001 C CNN
-	1    8650 1000
+P 8650 750
+F 0 "#PWR0104" H 8650 600 50  0001 C CNN
+F 1 "VDD" H 8667 923 50  0000 C CNN
+F 2 "" H 8650 750 50  0001 C CNN
+F 3 "" H 8650 750 50  0001 C CNN
+	1    8650 750 
 	1    0    0    -1  
 $EndComp
 Text Label 4450 1450 0    50   ~ 0
@@ -626,13 +604,11 @@ U 1 1 5EA99288
 P 10050 3800
 F 0 "J2" H 10023 3730 50  0000 R CNN
 F 1 "MOTOR" H 10023 3821 50  0000 R CNN
-F 2 "Connector_Hirose:Hirose_DF63M-3P-3.96DSA_1x03_P3.96mm_Vertical" H 10050 3800 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF63&documenttype=Catalog&lang=en&documentid=D31622_ja" H 10050 3800 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Hirose-Connector/DF63M-3P-396DSA?qs=sGAEpiMZZMvlX3nhDDO4ADf%252Bp9sbtHSJ34uorugIvF4%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "DF63M-3P-3.96DSA" H 0   0   50  0001 C CNN "MPN"
+F 2 "KUTKiCad_footprint:Hirose_DF22_DF22x-3P-7.92DSA_1x03_P7.92mm_Vertical" H 10050 3800 50  0001 C CNN
+F 3 "" H 10050 3800 50  0001 C CNN
+F 4 "DF22-3P-7.92DSA" H 0   0   50  0001 C CNN "MPN"
 	1    10050 3800
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text GLabel 9750 3900 0    50   Input ~ 0
 MOTOR_W
@@ -1054,49 +1030,47 @@ Voltage Divider\n
 $Comp
 L power:GND #PWR0116
 U 1 1 5EB97C16
-P 1350 1050
-F 0 "#PWR0116" H 1350 800 50  0001 C CNN
-F 1 "GND" H 1355 877 50  0000 C CNN
-F 2 "" H 1350 1050 50  0001 C CNN
-F 3 "" H 1350 1050 50  0001 C CNN
-	1    1350 1050
+P 1850 1050
+F 0 "#PWR0116" H 1850 800 50  0001 C CNN
+F 1 "GND" H 1855 877 50  0000 C CNN
+F 2 "" H 1850 1050 50  0001 C CNN
+F 3 "" H 1850 1050 50  0001 C CNN
+	1    1850 1050
 	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5EB97CCD
-P 3300 1150
-F 0 "#PWR0117" H 3300 900 50  0001 C CNN
-F 1 "GND" H 3305 977 50  0000 C CNN
-F 2 "" H 3300 1150 50  0001 C CNN
-F 3 "" H 3300 1150 50  0001 C CNN
-	1    3300 1150
+P 3800 1150
+F 0 "#PWR0117" H 3800 900 50  0001 C CNN
+F 1 "GND" H 3805 977 50  0000 C CNN
+F 2 "" H 3800 1150 50  0001 C CNN
+F 3 "" H 3800 1150 50  0001 C CNN
+	1    3800 1150
 	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5EBA0398
-P 1250 3450
-F 0 "#PWR0118" H 1250 3200 50  0001 C CNN
-F 1 "GND" H 1255 3277 50  0000 C CNN
-F 2 "" H 1250 3450 50  0001 C CNN
-F 3 "" H 1250 3450 50  0001 C CNN
-	1    1250 3450
+P 1750 3450
+F 0 "#PWR0118" H 1750 3200 50  0001 C CNN
+F 1 "GND" H 1755 3277 50  0000 C CNN
+F 2 "" H 1750 3450 50  0001 C CNN
+F 3 "" H 1750 3450 50  0001 C CNN
+	1    1750 3450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 3450 1550 3450
+	1750 3450 2050 3450
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5EBA4E51
 P 10050 3100
 F 0 "J1" H 10022 3073 50  0000 R CNN
 F 1 "POWER" H 10022 2982 50  0000 R CNN
-F 2 "Connector_Hirose:Hirose_DF63M-2P-3.96DSA_1x02_P3.96mm_Vertical" H 10050 3100 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF63&documenttype=Catalog&lang=en&documentid=D31622_ja" H 10050 3100 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Hirose-Connector/DF63M-2P-396DSA?qs=sGAEpiMZZMuyN6ZGvFhteTZk7n8ferJ4dPrvZ0xUyi6TkXnGsFceHw%3D%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "DF63M-2P-3.96DSA" H 0   0   50  0001 C CNN "MPN"
+F 2 "KUTKiCad_footprint:Hirose_DF22_DF22x-2P-7.92DSA_1x02_P7.92mm_Vertical" H 10050 3100 50  0001 C CNN
+F 3 "" H 10050 3100 50  0001 C CNN
+F 4 "DF22-3P-7.92DSA" H 0   0   50  0001 C CNN "MPN"
 	1    10050 3100
 	-1   0    0    -1  
 $EndComp
@@ -1130,35 +1104,35 @@ Wire Wire Line
 	9750 3000 9750 3100
 Wire Wire Line
 	9750 3100 9850 3100
-Text Label 3400 1950 2    50   ~ 0
+Text Label 3900 1950 2    50   ~ 0
 HIN_1
-Text Label 3400 1850 2    50   ~ 0
+Text Label 3900 1850 2    50   ~ 0
 LIN_1
-Text Label 3400 1750 2    50   ~ 0
+Text Label 3900 1750 2    50   ~ 0
 HIN_2
-Text Label 3400 1650 2    50   ~ 0
+Text Label 3900 1650 2    50   ~ 0
 LIN_2
-Text Label 3400 1550 2    50   ~ 0
+Text Label 3900 1550 2    50   ~ 0
 HIN_3
-Text Label 3400 1450 2    50   ~ 0
+Text Label 3900 1450 2    50   ~ 0
 LIN_3
 Wire Wire Line
-	3150 1950 3400 1950
+	3650 1950 3900 1950
 Wire Wire Line
-	3400 1850 3150 1850
+	3900 1850 3650 1850
 Wire Wire Line
-	3150 1750 3400 1750
+	3650 1750 3900 1750
 Wire Wire Line
-	3400 1650 3150 1650
+	3900 1650 3650 1650
 Wire Wire Line
-	3400 1550 3150 1550
+	3900 1550 3650 1550
 Wire Wire Line
-	3400 1450 3150 1450
-Text Label 3150 2850 0    50   ~ 0
+	3900 1450 3650 1450
+Text Label 3650 2850 0    50   ~ 0
 BEMF1
-Text Label 3150 2950 0    50   ~ 0
+Text Label 3650 2950 0    50   ~ 0
 BEMF2
-Text Label 3150 3050 0    50   ~ 0
+Text Label 3650 3050 0    50   ~ 0
 BEMF3
 $Comp
 L Device:R_Small R11
@@ -1417,19 +1391,19 @@ Wire Wire Line
 Connection ~ 5400 5200
 Wire Wire Line
 	5400 5200 5500 5200
-Text Label 3150 3150 0    50   ~ 0
+Text Label 3650 3150 0    50   ~ 0
 BEMF_N
-Text Label 1550 1950 2    50   ~ 0
+Text Label 2050 1950 2    50   ~ 0
 ISH_1
-Text Label 1550 2050 2    50   ~ 0
+Text Label 2050 2050 2    50   ~ 0
 ISL_1
-Text Label 1550 2150 2    50   ~ 0
+Text Label 2050 2150 2    50   ~ 0
 ISH_2
-Text Label 1550 2250 2    50   ~ 0
+Text Label 2050 2250 2    50   ~ 0
 ISL_2
-Text Label 1550 2350 2    50   ~ 0
+Text Label 2050 2350 2    50   ~ 0
 ISH_3
-Text Label 1550 2450 2    50   ~ 0
+Text Label 2050 2450 2    50   ~ 0
 ISL_3
 $Comp
 L Device:R_Small R1
@@ -1701,54 +1675,407 @@ Wire Wire Line
 Connection ~ 5950 5700
 Wire Wire Line
 	5950 5700 5850 5700
-Text Label 1550 1750 2    50   ~ 0
+Text Label 2050 1750 2    50   ~ 0
 ISH
-Text Label 1550 1850 2    50   ~ 0
+Text Label 2050 1850 2    50   ~ 0
 ISL
 $Comp
 L KUTKiCad_symbol:PSoC5LP_Prototyping_Kit U1
 U 1 1 5EAEBB0A
-P 2350 2300
-F 0 "U1" H 2350 3775 50  0000 C CNN
-F 1 "PSoC5LP_Prototyping_Kit" H 2350 3684 50  0000 C CNN
-F 2 "KUTKiCad_footprint:CY8CKIT-059" H 250 3600 50  0001 C CNN
-F 3 "" H 250 3600 50  0001 C CNN
-	1    2350 2300
+P 2850 2300
+F 0 "U1" H 2850 3775 50  0000 C CNN
+F 1 "PSoC5LP_Prototyping_Kit" H 2850 3684 50  0000 C CNN
+F 2 "KUTKiCad_footprint:CY8CKIT-059" H 750 3600 50  0001 C CNN
+F 3 "" H 750 3600 50  0001 C CNN
+	1    2850 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 1050 1550 1050
+	1850 1050 2050 1050
 Wire Wire Line
-	3300 1150 3150 1150
-NoConn ~ 1550 1150
-NoConn ~ 1550 1250
-NoConn ~ 1550 1350
-NoConn ~ 1550 1450
-NoConn ~ 1550 1550
-NoConn ~ 1550 1650
-NoConn ~ 1550 2550
-NoConn ~ 1550 2650
-NoConn ~ 1550 2750
-NoConn ~ 1550 2850
-NoConn ~ 1550 2950
-NoConn ~ 1550 3050
-NoConn ~ 1550 3150
-NoConn ~ 1550 3250
-NoConn ~ 1550 3350
-NoConn ~ 1550 3550
-NoConn ~ 3150 1050
-NoConn ~ 3150 1250
-NoConn ~ 3150 1350
-NoConn ~ 3150 2050
-NoConn ~ 3150 2150
-NoConn ~ 3150 2250
-NoConn ~ 3150 2350
-NoConn ~ 3150 2450
-NoConn ~ 3150 2550
-NoConn ~ 3150 2650
-NoConn ~ 3150 2750
-NoConn ~ 3150 3250
-NoConn ~ 3150 3350
-NoConn ~ 3150 3450
-NoConn ~ 3150 3550
+	3800 1150 3650 1150
+NoConn ~ 2050 1150
+NoConn ~ 2050 1250
+NoConn ~ 2050 1350
+NoConn ~ 2050 1450
+NoConn ~ 2050 1550
+NoConn ~ 2050 1650
+NoConn ~ 2050 2750
+NoConn ~ 2050 2850
+NoConn ~ 2050 2950
+NoConn ~ 2050 3050
+NoConn ~ 2050 3150
+NoConn ~ 2050 3250
+NoConn ~ 2050 3350
+NoConn ~ 3650 1050
+NoConn ~ 3650 1250
+NoConn ~ 3650 1350
+NoConn ~ 3650 2050
+NoConn ~ 3650 2150
+NoConn ~ 3650 2550
+NoConn ~ 3650 2650
+NoConn ~ 3650 2750
+NoConn ~ 3650 3250
+NoConn ~ 3650 3350
+NoConn ~ 3650 3450
+NoConn ~ 3650 3550
+Wire Wire Line
+	8650 1000 8650 750 
+Wire Wire Line
+	8650 750  8950 750 
+Connection ~ 8650 750 
+$Comp
+L power:GND #PWR0102
+U 1 1 5EC07216
+P 8950 950
+F 0 "#PWR0102" H 8950 700 50  0001 C CNN
+F 1 "GND" H 8955 777 50  0000 C CNN
+F 2 "" H 8950 950 50  0001 C CNN
+F 3 "" H 8950 950 50  0001 C CNN
+	1    8950 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0103
+U 1 1 5EC07660
+P 7000 750
+F 0 "#PWR0103" H 7000 600 50  0001 C CNN
+F 1 "VDD" H 7017 923 50  0000 C CNN
+F 2 "" H 7000 750 50  0001 C CNN
+F 3 "" H 7000 750 50  0001 C CNN
+	1    7000 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1000 7000 750 
+Wire Wire Line
+	7000 750  7300 750 
+Connection ~ 7000 750 
+$Comp
+L power:GND #PWR0121
+U 1 1 5EC07673
+P 7300 950
+F 0 "#PWR0121" H 7300 700 50  0001 C CNN
+F 1 "GND" H 7305 777 50  0000 C CNN
+F 2 "" H 7300 950 50  0001 C CNN
+F 3 "" H 7300 950 50  0001 C CNN
+	1    7300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0122
+U 1 1 5EC111A3
+P 5350 750
+F 0 "#PWR0122" H 5350 600 50  0001 C CNN
+F 1 "VDD" H 5367 923 50  0000 C CNN
+F 2 "" H 5350 750 50  0001 C CNN
+F 3 "" H 5350 750 50  0001 C CNN
+	1    5350 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1000 5350 750 
+Wire Wire Line
+	5350 750  5650 750 
+Connection ~ 5350 750 
+$Comp
+L power:GND #PWR0125
+U 1 1 5EC111B6
+P 5650 950
+F 0 "#PWR0125" H 5650 700 50  0001 C CNN
+F 1 "GND" H 5655 777 50  0000 C CNN
+F 2 "" H 5650 950 50  0001 C CNN
+F 3 "" H 5650 950 50  0001 C CNN
+	1    5650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 5EC257BC
+P 5650 850
+F 0 "C15" H 5558 804 50  0000 R CNN
+F 1 "2.2u" H 5558 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 850 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 5650 850 50  0001 C CNN
+F 4 "mouser" H 2700 -4600 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 2700 -4600 50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 2700 -4600 50  0001 C CNN "MPN"
+	1    5650 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 5EC25AEF
+P 7300 850
+F 0 "C16" H 7208 804 50  0000 R CNN
+F 1 "2.2u" H 7208 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7300 850 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 7300 850 50  0001 C CNN
+F 4 "mouser" H 4350 -4600 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 4350 -4600 50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 4350 -4600 50  0001 C CNN "MPN"
+	1    7300 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 5EC25BB5
+P 8950 850
+F 0 "C17" H 8858 804 50  0000 R CNN
+F 1 "2.2u" H 8858 895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 850 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8950 850 50  0001 C CNN
+F 4 "mouser" H 6000 -4600 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Murata-Electronics/GRM188R61E225MA12D?qs=sGAEpiMZZMuMW9TJLBQkXvhLBzZSIyMlqD0jXVqmhlI%3D" H 6000 -4600 50  0001 C CNN "Link"
+F 6 "GRM188R61E225MA12D" H 6000 -4600 50  0001 C CNN "MPN"
+	1    8950 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R35
+U 1 1 5EC26916
+P 7400 3450
+F 0 "R35" V 7204 3450 50  0000 C CNN
+F 1 "33k" V 7295 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 3450 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 7400 3450 50  0001 C CNN
+F 4 "mouser" H 0   -1150 50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF3302X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xChk6hee14qQ=" H 0   -1150 50  0001 C CNN "Link"
+F 6 "ERJ-2RKF3302X" H 0   -1150 50  0001 C CNN "MPN"
+	1    7400 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R36
+U 1 1 5EC26C1E
+P 7200 3650
+F 0 "R36" H 7141 3604 50  0000 R CNN
+F 1 "10k" H 7141 3695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7200 3650 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 7200 3650 50  0001 C CNN
+F 4 "Digikey" H 500 -1850 50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ103X/P10KJCT-ND/146734" H 500 -1850 50  0001 C CNN "Link"
+F 6 "ERJ-2GEJ103X" H 500 -1850 50  0001 C CNN "MPN"
+	1    7200 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5EC3107B
+P 7200 3750
+F 0 "#PWR0126" H 7200 3500 50  0001 C CNN
+F 1 "GND" H 7205 3577 50  0000 C CNN
+F 2 "" H 7200 3750 50  0001 C CNN
+F 3 "" H 7200 3750 50  0001 C CNN
+	1    7200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0127
+U 1 1 5EC31114
+P 7600 3350
+F 0 "#PWR0127" H 7600 3200 50  0001 C CNN
+F 1 "VDD" H 7617 3523 50  0000 C CNN
+F 2 "" H 7600 3350 50  0001 C CNN
+F 3 "" H 7600 3350 50  0001 C CNN
+	1    7600 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3350 7600 3450
+Wire Wire Line
+	7600 3450 7500 3450
+Wire Wire Line
+	7200 3550 7200 3450
+Wire Wire Line
+	7200 3450 7300 3450
+Connection ~ 7200 3450
+Text Label 6800 3450 2    50   ~ 0
+VS
+$Comp
+L Device:C_Small C18
+U 1 1 5EC64C4E
+P 6900 3650
+F 0 "C18" H 6808 3604 50  0000 R CNN
+F 1 "0.1u" H 6808 3695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6900 3650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6900 3650 50  0001 C CNN
+F 4 "Digikey" H 500 1350 50  0001 C CNN "Agency"
+F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 500 1350 50  0001 C CNN "Link"
+F 6 "GRM155R62A104KE14D" H 500 1350 50  0001 C CNN "MPN"
+	1    6900 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3450 6900 3450
+Wire Wire Line
+	6900 3450 6900 3550
+Connection ~ 6900 3450
+Wire Wire Line
+	6900 3450 7200 3450
+$Comp
+L power:GND #PWR0128
+U 1 1 5EC84488
+P 6900 3750
+F 0 "#PWR0128" H 6900 3500 50  0001 C CNN
+F 1 "GND" H 6905 3577 50  0000 C CNN
+F 2 "" H 6900 3750 50  0001 C CNN
+F 3 "" H 6900 3750 50  0001 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J3
+U 1 1 5EAFAD6B
+P 10050 4350
+F 0 "J3" H 10023 4373 50  0000 R CNN
+F 1 "Encoder" H 10023 4282 50  0000 R CNN
+F 2 "KUTKiCad_footprint:Hirose_DF1E_DF1E-5P-2.5DS_1x05_P2.5mm_Vertical" H 10050 4350 50  0001 C CNN
+F 3 "~" H 10050 4350 50  0001 C CNN
+	1    10050 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0129
+U 1 1 5EB05B11
+P 9750 4150
+F 0 "#PWR0129" H 9750 4000 50  0001 C CNN
+F 1 "+5V" H 9765 4323 50  0000 C CNN
+F 2 "" H 9750 4150 50  0001 C CNN
+F 3 "" H 9750 4150 50  0001 C CNN
+	1    9750 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4150 9850 4150
+Wire Wire Line
+	9850 4250 9750 4250
+Wire Wire Line
+	9750 4250 9750 4700
+$Comp
+L power:GND #PWR0130
+U 1 1 5EB25E7C
+P 9750 4700
+F 0 "#PWR0130" H 9750 4450 50  0001 C CNN
+F 1 "GND" H 9755 4527 50  0000 C CNN
+F 2 "" H 9750 4700 50  0001 C CNN
+F 3 "" H 9750 4700 50  0001 C CNN
+	1    9750 4700
+	1    0    0    -1  
+$EndComp
+Text Label 9400 4350 0    50   ~ 0
+Ch_A
+Text Label 9400 4450 0    50   ~ 0
+Ch_B
+Text Label 9400 4550 0    50   ~ 0
+Index
+Wire Wire Line
+	9400 4350 9850 4350
+Wire Wire Line
+	9400 4450 9850 4450
+Wire Wire Line
+	9400 4550 9850 4550
+$Comp
+L power:+5V #PWR0131
+U 1 1 5EB698C3
+P 1850 3350
+F 0 "#PWR0131" H 1850 3200 50  0001 C CNN
+F 1 "+5V" H 1865 3523 50  0000 C CNN
+F 2 "" H 1850 3350 50  0001 C CNN
+F 3 "" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3350 1850 3550
+Wire Wire Line
+	2050 3550 1850 3550
+Text Label 3650 2250 0    50   ~ 0
+Ch_A
+Text Label 3650 2350 0    50   ~ 0
+Ch_B
+Text Label 3650 2450 0    50   ~ 0
+Index
+$Comp
+L Device:R_POT RV1
+U 1 1 5EBD0DF4
+P 900 1600
+F 0 "RV1" H 830 1646 50  0000 R CNN
+F 1 "10k" H 830 1555 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 900 1600 50  0001 C CNN
+F 3 "~" H 900 1600 50  0001 C CNN
+	1    900  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5EBDC6C7
+P 900 2600
+F 0 "RV2" H 830 2646 50  0000 R CNN
+F 1 "10k" H 830 2555 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical" H 900 2600 50  0001 C CNN
+F 3 "~" H 900 2600 50  0001 C CNN
+	1    900  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0132
+U 1 1 5EBF35E8
+P 900 1350
+F 0 "#PWR0132" H 900 1200 50  0001 C CNN
+F 1 "+5V" H 915 1523 50  0000 C CNN
+F 2 "" H 900 1350 50  0001 C CNN
+F 3 "" H 900 1350 50  0001 C CNN
+	1    900  1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1350 900  1450
+$Comp
+L power:GND #PWR0133
+U 1 1 5EBFEE40
+P 900 1850
+F 0 "#PWR0133" H 900 1600 50  0001 C CNN
+F 1 "GND" H 905 1677 50  0000 C CNN
+F 2 "" H 900 1850 50  0001 C CNN
+F 3 "" H 900 1850 50  0001 C CNN
+	1    900  1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1850 900  1750
+$Comp
+L power:+5V #PWR0134
+U 1 1 5EC0A94E
+P 900 2350
+F 0 "#PWR0134" H 900 2200 50  0001 C CNN
+F 1 "+5V" H 915 2523 50  0000 C CNN
+F 2 "" H 900 2350 50  0001 C CNN
+F 3 "" H 900 2350 50  0001 C CNN
+	1    900  2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2350 900  2450
+$Comp
+L power:GND #PWR0135
+U 1 1 5EC16584
+P 900 2850
+F 0 "#PWR0135" H 900 2600 50  0001 C CNN
+F 1 "GND" H 905 2677 50  0000 C CNN
+F 2 "" H 900 2850 50  0001 C CNN
+F 3 "" H 900 2850 50  0001 C CNN
+	1    900  2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2850 900  2750
+Text Label 1050 1600 0    50   ~ 0
+POT_1
+Text Label 1050 2600 0    50   ~ 0
+POT_2
+Text Label 2050 2550 2    50   ~ 0
+POT_1
+Text Label 2050 2650 2    50   ~ 0
+POT_2
 $EndSCHEMATC
