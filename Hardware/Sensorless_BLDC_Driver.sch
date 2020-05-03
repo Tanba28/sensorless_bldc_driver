@@ -604,11 +604,9 @@ U 1 1 5EA99288
 P 10050 3800
 F 0 "J2" H 10023 3730 50  0000 R CNN
 F 1 "MOTOR" H 10023 3821 50  0000 R CNN
-F 2 "Connector_Hirose:Hirose_DF63M-3P-3.96DSA_1x03_P3.96mm_Vertical" H 10050 3800 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF63&documenttype=Catalog&lang=en&documentid=D31622_ja" H 10050 3800 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Hirose-Connector/DF63M-3P-396DSA?qs=sGAEpiMZZMvlX3nhDDO4ADf%252Bp9sbtHSJ34uorugIvF4%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "DF63M-3P-3.96DSA" H 0   0   50  0001 C CNN "MPN"
+F 2 "KUTKiCad_footprint:Hirose_DF22_DF22x-3P-7.92DSA_1x03_P7.92mm_Vertical" H 10050 3800 50  0001 C CNN
+F 3 "" H 10050 3800 50  0001 C CNN
+F 4 "DF22-3P-7.92DSA" H 0   0   50  0001 C CNN "MPN"
 	1    10050 3800
 	-1   0    0    1   
 $EndComp
@@ -1070,11 +1068,9 @@ U 1 1 5EBA4E51
 P 10050 3100
 F 0 "J1" H 10022 3073 50  0000 R CNN
 F 1 "POWER" H 10022 2982 50  0000 R CNN
-F 2 "Connector_Hirose:Hirose_DF63M-2P-3.96DSA_1x02_P3.96mm_Vertical" H 10050 3100 50  0001 C CNN
-F 3 "https://www.hirose.com/product/document?clcode=&productname=&series=DF63&documenttype=Catalog&lang=en&documentid=D31622_ja" H 10050 3100 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Hirose-Connector/DF63M-2P-396DSA?qs=sGAEpiMZZMuyN6ZGvFhteTZk7n8ferJ4dPrvZ0xUyi6TkXnGsFceHw%3D%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "DF63M-2P-3.96DSA" H 0   0   50  0001 C CNN "MPN"
+F 2 "KUTKiCad_footprint:Hirose_DF22_DF22x-2P-7.92DSA_1x02_P7.92mm_Vertical" H 10050 3100 50  0001 C CNN
+F 3 "" H 10050 3100 50  0001 C CNN
+F 4 "DF22-3P-7.92DSA" H 0   0   50  0001 C CNN "MPN"
 	1    10050 3100
 	-1   0    0    -1  
 $EndComp
