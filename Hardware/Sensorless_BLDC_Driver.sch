@@ -874,10 +874,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 5200 7200 5200
 $Comp
-L Device:R_Small R32
+L Device:R_Small R20
 U 1 1 5EB50576
 P 5600 4600
-F 0 "R32" V 5404 4600 50  0000 C CNN
+F 0 "R20" V 5404 4600 50  0000 C CNN
 F 1 "120" V 5495 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 4600 50  0001 C CNN
 F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4600 50  0001 C CNN
@@ -888,10 +888,10 @@ F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R33
+L Device:R_Small R21
 U 1 1 5EB50898
 P 5600 4900
-F 0 "R33" V 5404 4900 50  0000 C CNN
+F 0 "R21" V 5404 4900 50  0000 C CNN
 F 1 "120" V 5495 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 4900 50  0001 C CNN
 F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4900 50  0001 C CNN
@@ -902,10 +902,10 @@ F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R34
+L Device:R_Small R22
 U 1 1 5EB508FA
 P 5600 5200
-F 0 "R34" V 5404 5200 50  0000 C CNN
+F 0 "R22" V 5404 5200 50  0000 C CNN
 F 1 "120" V 5495 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 5200 50  0001 C CNN
 F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 5200 50  0001 C CNN
@@ -1505,112 +1505,12 @@ Wire Wire Line
 	7000 2650 8650 2650
 Wire Wire Line
 	8650 2450 8650 2650
-$Comp
-L Device:R_Small R20
-U 1 1 5EC30B46
-P 5350 2900
-F 0 "R20" H 5291 2854 50  0000 R CNN
-F 1 "2m" H 5291 2945 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5350 2900 50  0001 C CNN
-F 3 "https://www.rohm.com/datasheet/PMR18EZPFV/pmr-e" H 5350 2900 50  0001 C CNN
-F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.digikey.jp/product-detail/ja/rohm-semiconductor/PMR10EZPFV2L00/RHM.002AJCT-ND/2094528" H 0   0   50  0001 C CNN "Link"
-F 6 "PMR10EZPFV2L00" H 0   0   50  0001 C CNN "MPN"
-	1    5350 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R21
-U 1 1 5EC30B4E
-P 5100 2750
-F 0 "R21" V 4904 2750 50  0000 C CNN
-F 1 "4.7" V 4995 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 2750 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5100 2750 50  0001 C CNN
-F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
-	1    5100 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C11
-U 1 1 5EC30B55
-P 4750 2900
-F 0 "C11" H 4658 2854 50  0000 R CNN
-F 1 "0.1u" H 4658 2945 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4750 2900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 4750 2900 50  0001 C CNN
-F 4 "Digikey" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.digikey.jp/product-detail/ja/murata-electronics/GRM155R62A104KE14D/490-10458-1-ND/5026370" H 0   0   50  0001 C CNN "Link"
-F 6 "GRM155R62A104KE14D" H 0   0   50  0001 C CNN "MPN"
-	1    4750 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5200 2750 5350 2750
-Connection ~ 5350 2750
-Wire Wire Line
-	5350 2750 5350 2800
-Wire Wire Line
-	4750 3050 4750 3000
-Wire Wire Line
-	4750 2800 4750 2750
-Wire Wire Line
-	4750 2750 5000 2750
-Connection ~ 4750 2750
-Text Label 4450 2750 0    50   ~ 0
-ISH
-Wire Wire Line
-	4450 2750 4750 2750
-Wire Wire Line
-	5350 3000 5350 3050
-$Comp
-L Device:R_Small R22
-U 1 1 5EC30B66
-P 5100 3050
-F 0 "R22" V 4904 3050 50  0000 C CNN
-F 1 "4.7" V 4995 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 3050 50  0001 C CNN
-F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 5100 3050 50  0001 C CNN
-F 4 "Digkey" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.digikey.jp/product-detail/ja/panasonic-electronic-components/ERJ-2GEJ4R7X/P4.7JCT-ND/282380" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-2GEJ4R7X" H 0   0   50  0001 C CNN "MPN"
-	1    5100 3050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 3050 4750 3050
-Wire Wire Line
-	5200 3050 5350 3050
-Wire Wire Line
-	4750 3050 4450 3050
-Connection ~ 4750 3050
-Text Label 4450 3050 0    50   ~ 0
-ISL
 Wire Wire Line
 	7000 2650 5350 2650
 Wire Wire Line
 	5350 2650 5350 2450
 Connection ~ 7000 2650
 Connection ~ 5350 2450
-Wire Wire Line
-	5350 2650 5350 2750
-Connection ~ 5350 2650
-Wire Wire Line
-	5350 3050 5350 3200
-Connection ~ 5350 3050
-$Comp
-L power:GND #PWR0108
-U 1 1 5EC720E0
-P 5350 3200
-F 0 "#PWR0108" H 5350 2950 50  0001 C CNN
-F 1 "GND" H 5355 3027 50  0000 C CNN
-F 2 "" H 5350 3200 50  0001 C CNN
-F 3 "" H 5350 3200 50  0001 C CNN
-	1    5350 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint_Probe TP1
 U 1 1 5ECCA6C5
@@ -1832,10 +1732,10 @@ F 6 "GRM188R61E225MA12D" H 6000 -4600 50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R35
+L Device:R_Small R32
 U 1 1 5EC26916
 P 7400 3450
-F 0 "R35" V 7204 3450 50  0000 C CNN
+F 0 "R32" V 7204 3450 50  0000 C CNN
 F 1 "33k" V 7295 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 3450 50  0001 C CNN
 F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 7400 3450 50  0001 C CNN
@@ -1846,10 +1746,10 @@ F 6 "ERJ-2RKF3302X" H 0   -1150 50  0001 C CNN "MPN"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R36
+L Device:R_Small R33
 U 1 1 5EC26C1E
 P 7200 3650
-F 0 "R36" H 7141 3604 50  0000 R CNN
+F 0 "R33" H 7141 3604 50  0000 R CNN
 F 1 "10k" H 7141 3695 50  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7200 3650 50  0001 C CNN
 F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/1242" H 7200 3650 50  0001 C CNN
@@ -1893,10 +1793,10 @@ Connection ~ 7200 3450
 Text Label 6800 3450 2    50   ~ 0
 VS
 $Comp
-L Device:C_Small C18
+L Device:C_Small C11
 U 1 1 5EC64C4E
 P 6900 3650
-F 0 "C18" H 6808 3604 50  0000 R CNN
+F 0 "C11" H 6808 3604 50  0000 R CNN
 F 1 "0.1u" H 6808 3695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6900 3650 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R62A104KE14-01.pdf" H 6900 3650 50  0001 C CNN
@@ -2078,4 +1978,16 @@ Text Label 2050 2550 2    50   ~ 0
 POT_1
 Text Label 2050 2650 2    50   ~ 0
 POT_2
+$Comp
+L power:GND #PWR?
+U 1 1 5EB6F4C6
+P 5350 2650
+F 0 "#PWR?" H 5350 2400 50  0001 C CNN
+F 1 "GND" H 5355 2477 50  0000 C CNN
+F 2 "" H 5350 2650 50  0001 C CNN
+F 3 "" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 2650
 $EndSCHEMATC
