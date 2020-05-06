@@ -764,18 +764,13 @@ F 6 "ERJ-2GEJ103X" H 0   0   50  0001 C CNN "MPN"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6700 5400 6700 4600
-Connection ~ 6700 4600
-Wire Wire Line
 	6700 4600 7300 4600
 Wire Wire Line
 	6950 5400 6950 4900
-Connection ~ 6950 4900
 Wire Wire Line
 	6950 4900 7300 4900
 Wire Wire Line
 	7200 5400 7200 5200
-Connection ~ 7200 5200
 Wire Wire Line
 	7200 5200 7300 5200
 $Comp
@@ -864,66 +859,49 @@ Wire Wire Line
 	6100 5600 6100 5700
 Connection ~ 6100 5700
 Wire Wire Line
-	6100 5700 5950 5700
-Wire Wire Line
 	5500 5700 5850 5700
-Wire Wire Line
-	5850 4600 6700 4600
-Wire Wire Line
-	6100 4900 6950 4900
-Wire Wire Line
-	6350 5200 7200 5200
 $Comp
 L Device:R_Small R20
 U 1 1 5EB50576
-P 5600 4600
-F 0 "R20" V 5404 4600 50  0000 C CNN
-F 1 "120" V 5495 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 4600 50  0001 C CNN
-F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4600 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
-	1    5600 4600
+P 6500 4600
+F 0 "R20" V 6304 4600 50  0000 C CNN
+F 1 "120" V 6395 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6500 4600 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 6500 4600 50  0001 C CNN
+F 4 "mouser" H 900 0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 900 0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF1200X" H 900 0   50  0001 C CNN "MPN"
+	1    6500 4600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R21
 U 1 1 5EB50898
-P 5600 4900
-F 0 "R21" V 5404 4900 50  0000 C CNN
-F 1 "120" V 5495 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 4900 50  0001 C CNN
-F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 4900 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
-	1    5600 4900
+P 6500 4900
+F 0 "R21" V 6304 4900 50  0000 C CNN
+F 1 "120" V 6395 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6500 4900 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 6500 4900 50  0001 C CNN
+F 4 "mouser" H 900 0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 900 0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF1200X" H 900 0   50  0001 C CNN "MPN"
+	1    6500 4900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R22
 U 1 1 5EB508FA
-P 5600 5200
-F 0 "R22" V 5404 5200 50  0000 C CNN
-F 1 "120" V 5495 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5600 5200 50  0001 C CNN
-F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 5600 5200 50  0001 C CNN
-F 4 "mouser" H 0   0   50  0001 C CNN "Agency"
-F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 0   0   50  0001 C CNN "Link"
-F 6 "ERJ-2RKF1200X" H 0   0   50  0001 C CNN "MPN"
-	1    5600 5200
+P 6500 5200
+F 0 "R22" V 6304 5200 50  0000 C CNN
+F 1 "120" V 6395 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6500 5200 50  0001 C CNN
+F 3 "https://www.mouser.jp/datasheet/2/315/AOA0000C304-1149620.pdf" H 6500 5200 50  0001 C CNN
+F 4 "mouser" H 900 0   50  0001 C CNN "Agency"
+F 5 "https://www.mouser.jp/ProductDetail/Panasonic/ERJ-2RKF1200X?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xTN1%2Fwxbh%252BhY%3D" H 900 0   50  0001 C CNN "Link"
+F 6 "ERJ-2RKF1200X" H 900 0   50  0001 C CNN "MPN"
+	1    6500 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5700 4600 5850 4600
-Connection ~ 5850 4600
-Wire Wire Line
-	6100 4900 5700 4900
-Connection ~ 6100 4900
-Wire Wire Line
-	5700 5200 6350 5200
-Connection ~ 6350 5200
 $Comp
 L Device:C_Small C14
 U 1 1 5EB5D7FD
@@ -969,17 +947,11 @@ $EndComp
 Wire Wire Line
 	4500 4600 4800 4600
 Wire Wire Line
-	4500 5200 4950 5200
-Wire Wire Line
 	4800 5400 4800 4600
 Connection ~ 4800 4600
 Wire Wire Line
-	4800 4600 4950 4600
-Wire Wire Line
 	5100 5400 5100 4900
 Connection ~ 5100 4900
-Wire Wire Line
-	5100 4900 4950 4900
 $Comp
 L power:GND #PWR0113
 U 1 1 5EB76F0E
@@ -1030,38 +1002,38 @@ Voltage Divider\n
 $Comp
 L power:GND #PWR0116
 U 1 1 5EB97C16
-P 1850 1050
-F 0 "#PWR0116" H 1850 800 50  0001 C CNN
-F 1 "GND" H 1855 877 50  0000 C CNN
-F 2 "" H 1850 1050 50  0001 C CNN
-F 3 "" H 1850 1050 50  0001 C CNN
-	1    1850 1050
-	0    1    -1   0   
+P 3900 3500
+F 0 "#PWR0116" H 3900 3250 50  0001 C CNN
+F 1 "GND" H 3905 3327 50  0000 C CNN
+F 2 "" H 3900 3500 50  0001 C CNN
+F 3 "" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	0    -1   1    0   
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 5EB97CCD
-P 3800 1150
-F 0 "#PWR0117" H 3800 900 50  0001 C CNN
-F 1 "GND" H 3805 977 50  0000 C CNN
-F 2 "" H 3800 1150 50  0001 C CNN
-F 3 "" H 3800 1150 50  0001 C CNN
-	1    3800 1150
-	0    -1   1    0   
+P 1950 3400
+F 0 "#PWR0117" H 1950 3150 50  0001 C CNN
+F 1 "GND" H 1955 3227 50  0000 C CNN
+F 2 "" H 1950 3400 50  0001 C CNN
+F 3 "" H 1950 3400 50  0001 C CNN
+	1    1950 3400
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5EBA0398
-P 1750 3450
-F 0 "#PWR0118" H 1750 3200 50  0001 C CNN
-F 1 "GND" H 1755 3277 50  0000 C CNN
-F 2 "" H 1750 3450 50  0001 C CNN
-F 3 "" H 1750 3450 50  0001 C CNN
-	1    1750 3450
-	-1   0    0    -1  
+P 4000 1100
+F 0 "#PWR0118" H 4000 850 50  0001 C CNN
+F 1 "GND" H 4005 927 50  0000 C CNN
+F 2 "" H 4000 1100 50  0001 C CNN
+F 3 "" H 4000 1100 50  0001 C CNN
+	1    4000 1100
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	1750 3450 2050 3450
+	4000 1100 3700 1100
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5EBA4E51
@@ -1104,35 +1076,35 @@ Wire Wire Line
 	9750 3000 9750 3100
 Wire Wire Line
 	9750 3100 9850 3100
-Text Label 3900 1950 2    50   ~ 0
+Text Label 1850 1000 0    50   ~ 0
 HIN_1
-Text Label 3900 1850 2    50   ~ 0
+Text Label 1850 1100 0    50   ~ 0
 LIN_1
-Text Label 3900 1750 2    50   ~ 0
+Text Label 1850 1200 0    50   ~ 0
 HIN_2
-Text Label 3900 1650 2    50   ~ 0
+Text Label 1850 1300 0    50   ~ 0
 LIN_2
-Text Label 3900 1550 2    50   ~ 0
+Text Label 1850 1400 0    50   ~ 0
 HIN_3
-Text Label 3900 1450 2    50   ~ 0
+Text Label 1850 1500 0    50   ~ 0
 LIN_3
 Wire Wire Line
-	3650 1950 3900 1950
+	2100 1000 1850 1000
 Wire Wire Line
-	3900 1850 3650 1850
+	1850 1100 2100 1100
 Wire Wire Line
-	3650 1750 3900 1750
+	2100 1200 1850 1200
 Wire Wire Line
-	3900 1650 3650 1650
+	1850 1300 2100 1300
 Wire Wire Line
-	3900 1550 3650 1550
+	1850 1400 2100 1400
 Wire Wire Line
-	3900 1450 3650 1450
-Text Label 3650 2850 0    50   ~ 0
+	1850 1500 2100 1500
+Text Label 3700 2800 0    50   ~ 0
 BEMF1
-Text Label 3650 2950 0    50   ~ 0
+Text Label 3700 2900 0    50   ~ 0
 BEMF2
-Text Label 3650 3050 0    50   ~ 0
+Text Label 3700 3000 0    50   ~ 0
 BEMF3
 $Comp
 L Device:R_Small R11
@@ -1385,25 +1357,21 @@ Wire Wire Line
 Wire Wire Line
 	4450 1900 4750 1900
 Wire Wire Line
-	5100 4900 5500 4900
-Wire Wire Line
 	5400 5400 5400 5200
 Connection ~ 5400 5200
-Wire Wire Line
-	5400 5200 5500 5200
-Text Label 3650 3150 0    50   ~ 0
+Text Label 3700 3100 0    50   ~ 0
 BEMF_N
-Text Label 2050 1950 2    50   ~ 0
+Text Label 3700 2400 0    50   ~ 0
 ISH_1
-Text Label 2050 2050 2    50   ~ 0
+Text Label 3700 2300 0    50   ~ 0
 ISL_1
-Text Label 2050 2150 2    50   ~ 0
+Text Label 3700 2100 0    50   ~ 0
 ISH_2
-Text Label 2050 2250 2    50   ~ 0
+Text Label 3700 2200 0    50   ~ 0
 ISL_2
-Text Label 2050 2350 2    50   ~ 0
+Text Label 3700 1900 0    50   ~ 0
 ISH_3
-Text Label 2050 2450 2    50   ~ 0
+Text Label 3700 2000 0    50   ~ 0
 ISL_3
 $Comp
 L Device:R_Small R1
@@ -1512,113 +1480,35 @@ Wire Wire Line
 Connection ~ 7000 2650
 Connection ~ 5350 2450
 $Comp
-L Connector:TestPoint_Probe TP1
-U 1 1 5ECCA6C5
-P 4950 4550
-F 0 "TP1" H 5103 4652 50  0000 L CNN
-F 1 "BEMF1" H 5103 4561 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5150 4550 50  0001 C CNN
-F 3 "~" H 5150 4550 50  0001 C CNN
-	1    4950 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 4550 4950 4600
-Connection ~ 4950 4600
-Wire Wire Line
-	4950 4600 5500 4600
-$Comp
-L Connector:TestPoint_Probe TP2
-U 1 1 5ECD378B
-P 4950 4850
-F 0 "TP2" H 5103 4952 50  0000 L CNN
-F 1 "BEMF2" H 5103 4861 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5150 4850 50  0001 C CNN
-F 3 "~" H 5150 4850 50  0001 C CNN
-	1    4950 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 4850 4950 4900
-Connection ~ 4950 4900
-Wire Wire Line
-	4950 4900 4500 4900
-$Comp
-L Connector:TestPoint_Probe TP3
-U 1 1 5ECDC753
-P 4950 5150
-F 0 "TP3" H 5103 5252 50  0000 L CNN
-F 1 "BEMF3" H 5103 5161 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5150 5150 50  0001 C CNN
-F 3 "~" H 5150 5150 50  0001 C CNN
-	1    4950 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 5150 4950 5200
-Connection ~ 4950 5200
-Wire Wire Line
-	4950 5200 5400 5200
-$Comp
-L Connector:TestPoint_Probe TP4
-U 1 1 5ECE5A26
-P 5950 5750
-F 0 "TP4" H 6103 5852 50  0000 L CNN
-F 1 "BEMFN" H 6103 5761 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6150 5750 50  0001 C CNN
-F 3 "~" H 6150 5750 50  0001 C CNN
-	1    5950 5750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	5950 5750 5950 5700
-Connection ~ 5950 5700
-Wire Wire Line
-	5950 5700 5850 5700
-Text Label 2050 1750 2    50   ~ 0
-ISH
-Text Label 2050 1850 2    50   ~ 0
-ISL
-$Comp
 L KUTKiCad_symbol:PSoC5LP_Prototyping_Kit U1
 U 1 1 5EAEBB0A
-P 2850 2300
-F 0 "U1" H 2850 3775 50  0000 C CNN
-F 1 "PSoC5LP_Prototyping_Kit" H 2850 3684 50  0000 C CNN
-F 2 "KUTKiCad_footprint:CY8CKIT-059" H 750 3600 50  0001 C CNN
-F 3 "" H 750 3600 50  0001 C CNN
-	1    2850 2300
-	1    0    0    -1  
+P 2900 2250
+F 0 "U1" H 2900 3725 50  0000 C CNN
+F 1 "PSoC5LP_Prototyping_Kit" H 2900 3634 50  0000 C CNN
+F 2 "KUTKiCad_footprint:CY8CKIT-059" H 800 3550 50  0001 C CNN
+F 3 "" H 800 3550 50  0001 C CNN
+	1    2900 2250
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1850 1050 2050 1050
+	3900 3500 3700 3500
 Wire Wire Line
-	3800 1150 3650 1150
-NoConn ~ 2050 1150
-NoConn ~ 2050 1250
-NoConn ~ 2050 1350
-NoConn ~ 2050 1450
-NoConn ~ 2050 1550
-NoConn ~ 2050 1650
-NoConn ~ 2050 2750
-NoConn ~ 2050 2850
-NoConn ~ 2050 2950
-NoConn ~ 2050 3050
-NoConn ~ 2050 3150
-NoConn ~ 2050 3250
-NoConn ~ 2050 3350
-NoConn ~ 3650 1050
-NoConn ~ 3650 1250
-NoConn ~ 3650 1350
-NoConn ~ 3650 2050
-NoConn ~ 3650 2150
-NoConn ~ 3650 2550
-NoConn ~ 3650 2650
-NoConn ~ 3650 2750
-NoConn ~ 3650 3250
-NoConn ~ 3650 3350
-NoConn ~ 3650 3450
-NoConn ~ 3650 3550
+	1950 3400 2100 3400
+NoConn ~ 3700 3400
+NoConn ~ 3700 3200
+NoConn ~ 3700 1800
+NoConn ~ 3700 1700
+NoConn ~ 3700 1600
+NoConn ~ 3700 1500
+NoConn ~ 3700 1400
+NoConn ~ 3700 1300
+NoConn ~ 3700 1200
+NoConn ~ 2100 3500
+NoConn ~ 2100 2500
+NoConn ~ 2100 2400
+NoConn ~ 2100 2000
+NoConn ~ 2100 1900
+NoConn ~ 2100 1800
 Wire Wire Line
 	8650 1000 8650 750 
 Wire Wire Line
@@ -1878,23 +1768,23 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0131
 U 1 1 5EB698C3
-P 1850 3350
-F 0 "#PWR0131" H 1850 3200 50  0001 C CNN
-F 1 "+5V" H 1865 3523 50  0000 C CNN
-F 2 "" H 1850 3350 50  0001 C CNN
-F 3 "" H 1850 3350 50  0001 C CNN
-	1    1850 3350
-	1    0    0    -1  
+P 3900 1200
+F 0 "#PWR0131" H 3900 1050 50  0001 C CNN
+F 1 "+5V" H 3915 1373 50  0000 C CNN
+F 2 "" H 3900 1200 50  0001 C CNN
+F 3 "" H 3900 1200 50  0001 C CNN
+	1    3900 1200
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1850 3350 1850 3550
+	3900 1200 3900 1000
 Wire Wire Line
-	2050 3550 1850 3550
-Text Label 3650 2250 0    50   ~ 0
+	3700 1000 3900 1000
+Text Label 2100 3200 2    50   ~ 0
 Ch_A
-Text Label 3650 2350 0    50   ~ 0
+Text Label 2100 3100 2    50   ~ 0
 Ch_B
-Text Label 3650 2450 0    50   ~ 0
+Text Label 2100 3000 2    50   ~ 0
 Index
 $Comp
 L Device:R_POT RV1
@@ -1974,15 +1864,15 @@ Text Label 1050 1600 0    50   ~ 0
 POT_1
 Text Label 1050 2600 0    50   ~ 0
 POT_2
-Text Label 2050 2550 2    50   ~ 0
+Text Label 2100 1700 2    50   ~ 0
 POT_1
-Text Label 2050 2650 2    50   ~ 0
+Text Label 2100 2800 2    50   ~ 0
 POT_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 5EB6F4C6
 P 5350 2650
-F 0 "#PWR?" H 5350 2400 50  0001 C CNN
+F 0 "#PWR0108" H 5350 2400 50  0001 C CNN
 F 1 "GND" H 5355 2477 50  0000 C CNN
 F 2 "" H 5350 2650 50  0001 C CNN
 F 3 "" H 5350 2650 50  0001 C CNN
@@ -1990,4 +1880,43 @@ F 3 "" H 5350 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5350 2650
+NoConn ~ 2100 2700
+NoConn ~ 2100 2600
+Wire Wire Line
+	5100 4900 6100 4900
+Wire Wire Line
+	5400 5200 6350 5200
+Wire Wire Line
+	6700 4600 6700 5400
+Wire Wire Line
+	6700 4600 6600 4600
+Connection ~ 6700 4600
+Wire Wire Line
+	6400 4600 5850 4600
+Connection ~ 5850 4600
+Wire Wire Line
+	6100 4900 6400 4900
+Connection ~ 6100 4900
+Wire Wire Line
+	6350 5200 6400 5200
+Connection ~ 6350 5200
+Wire Wire Line
+	6600 4900 6950 4900
+Connection ~ 6950 4900
+Wire Wire Line
+	7200 5200 6600 5200
+Connection ~ 7200 5200
+Text Label 3700 3300 0    50   ~ 0
+VS
+Wire Wire Line
+	4800 4600 5850 4600
+Wire Wire Line
+	4500 4900 5100 4900
+Wire Wire Line
+	4500 5200 5400 5200
+Wire Wire Line
+	5850 5700 6100 5700
+NoConn ~ 3700 2500
+NoConn ~ 3700 2600
+NoConn ~ 3700 2700
 $EndSCHEMATC
