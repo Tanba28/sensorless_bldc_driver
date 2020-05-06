@@ -1076,30 +1076,30 @@ Wire Wire Line
 	9750 3000 9750 3100
 Wire Wire Line
 	9750 3100 9850 3100
-Text Label 1850 1000 0    50   ~ 0
-HIN_1
-Text Label 1850 1100 0    50   ~ 0
-LIN_1
 Text Label 1850 1200 0    50   ~ 0
-HIN_2
+HIN_1
 Text Label 1850 1300 0    50   ~ 0
-LIN_2
+LIN_1
 Text Label 1850 1400 0    50   ~ 0
-HIN_3
+HIN_2
 Text Label 1850 1500 0    50   ~ 0
+LIN_2
+Text Label 1850 1600 0    50   ~ 0
+HIN_3
+Text Label 1850 1700 0    50   ~ 0
 LIN_3
-Wire Wire Line
-	2100 1000 1850 1000
-Wire Wire Line
-	1850 1100 2100 1100
 Wire Wire Line
 	2100 1200 1850 1200
 Wire Wire Line
 	1850 1300 2100 1300
 Wire Wire Line
-	1850 1400 2100 1400
+	2100 1400 1850 1400
 Wire Wire Line
 	1850 1500 2100 1500
+Wire Wire Line
+	1850 1600 2100 1600
+Wire Wire Line
+	1850 1700 2100 1700
 Text Label 3700 2800 0    50   ~ 0
 BEMF1
 Text Label 3700 2900 0    50   ~ 0
@@ -1864,7 +1864,7 @@ Text Label 1050 1600 0    50   ~ 0
 POT_1
 Text Label 1050 2600 0    50   ~ 0
 POT_2
-Text Label 2100 1700 2    50   ~ 0
+Text Label 2100 2100 2    50   ~ 0
 POT_1
 Text Label 2100 2800 2    50   ~ 0
 POT_2
@@ -1919,4 +1919,6 @@ Wire Wire Line
 NoConn ~ 3700 2500
 NoConn ~ 3700 2600
 NoConn ~ 3700 2700
+NoConn ~ 2100 1000
+NoConn ~ 2100 1100
 $EndSCHEMATC
